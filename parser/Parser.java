@@ -57,7 +57,6 @@ public class Parser {
 
     private void initFileStructure() {
         this.dataStore = new FileDataStore();
-        this.dataStore.init();
     }
 
 

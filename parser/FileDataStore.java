@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class FileDataStore {
-    private static final String pathDelim = isWindows() ? "\\" : "/";
+    public static final String pathDelim = isWindows() ? "\\" : "/";
     public static final String newLine = "\r\n";
     private String rootDir = ".";
     private String rowDir = rootDir + pathDelim + ".row";
@@ -28,12 +28,14 @@ public class FileDataStore {
     public static final String VIEW_TIME = "VIEW_TIME";
 
     public FileDataStore() {
+        init();
     }
 
     public FileDataStore(String rootDir, String rowDir, String rootColDir) {
         this.rootDir = rootDir;
         this.rowDir = rowDir;
         this.rootColDir = rootColDir;
+        init();
     }
 
 
@@ -51,6 +53,21 @@ public class FileDataStore {
         if (!createDirIfNotExists(rootColDir)) {
             throw new RuntimeException(String.format("unable to init dir %s", rootColDir));
         }
+    }
+
+
+    public void cleanUp() {
+        if (!deleteDirIfNotExists(rowDir)) {
+            throw new RuntimeException(String.format("unable to delete dir %s", rowDir));
+        }
+        if (!deleteDirIfNotExists(rootColDir)) {
+            throw new RuntimeException(String.format("unable to delete dir %s", rootColDir));
+        }
+    }
+
+
+    public boolean isInitialized() {
+        return dirExists(rootDir) && dirExists(rowDir) && dirExists(rootColDir);
     }
 
     public List<String> getRowsFromColAndValue(String colName, String value) {
@@ -194,7 +211,28 @@ public class FileDataStore {
     }
 
 
-    private static final boolean isWindows() {
+    private boolean deleteDirIfNotExists(String location) {
+        File file = new File(location);
+        if (!file.exists()) {
+            return false;
+        }
+        try {
+            Files.delete(file.toPath());
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
+        return true;
+    }
+
+
+    private boolean dirExists(String location) {
+        File file = new File(location);
+        return file.exists() && file.isDirectory();
+    }
+
+
+    public static boolean isWindows() {
         String os = System.getProperty("os.name");
         return os.toLowerCase().contains("windows");
     }
