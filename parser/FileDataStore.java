@@ -12,7 +12,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class FileDataStore {
+public class FileDataStore implements RowStore {
     public static final String pathDelim = isWindows() ? "\\" : "/";
     public static final String newLine = "\r\n";
     private String rootDir = ".";

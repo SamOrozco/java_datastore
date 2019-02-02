@@ -2,6 +2,7 @@ package test;
 
 import parser.FileDataStore;
 import parser.Parser;
+import parser.RowStore;
 import query.Query;
 import query.Row;
 
@@ -14,7 +15,7 @@ public class QueryParserTest {
     public static void main(String[] args) throws FileNotFoundException {
         Parser parser = Parser.newPipeParser();
         parser.store(fileLocation);
-        FileDataStore store = new FileDataStore();
+        RowStore store = new FileDataStore();
         if (!store.isInitialized()) {
             System.out.println("file data store init isn't working");
             System.exit(1);

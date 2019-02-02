@@ -18,7 +18,7 @@ public class Parser {
     private final String delim;
     private static final int MAX_CAPACITY = 1000;
     public static final int LINE_LENGTH = 6;
-    FileDataStore dataStore;
+    RowStore dataStore;
     private final BlockingQueue<String> lineQueue = new LinkedBlockingQueue<>(MAX_CAPACITY);
     private final StringBuilder keys = new StringBuilder();
     private AtomicInteger readCount = new AtomicInteger(0);

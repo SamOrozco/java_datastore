@@ -1,6 +1,7 @@
 package test;
 
 import parser.FileDataStore;
+import parser.RowStore;
 
 import java.io.FileNotFoundException;
 
@@ -10,7 +11,7 @@ public class TestFileDataStore {
 
     public static void main(String[] args) throws FileNotFoundException {
         // init file structure test
-        FileDataStore fileDataStore = new FileDataStore();
+        RowStore fileDataStore = new FileDataStore();
         if (!fileDataStore.isInitialized()) {
             System.out.println("file data store init isn't working");
             System.exit(1);

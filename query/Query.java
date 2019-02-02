@@ -1,6 +1,7 @@
 package query;
 
 import parser.FileDataStore;
+import parser.RowStore;
 
 import java.util.*;
 
@@ -15,7 +16,7 @@ public class Query {
         add(filterString);
     }};
     private final String[] args;
-    private final FileDataStore store;
+    private final RowStore store;
     private boolean hasFilter;
 
     private Query(String[] args) {
