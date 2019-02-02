@@ -2,9 +2,6 @@ package parser;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.*;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.CompletableFuture;
@@ -14,6 +11,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
+import static parser.FileDataStore.getLineStream;
 import static parser.FileDataStore.newLine;
 
 public class Parser {
@@ -27,14 +25,14 @@ public class Parser {
     private AtomicInteger parseCount = new AtomicInteger(0);
     private List<String> headers;
     private Map<Integer, Column> columns;
-    private static final int SBT_INDEX = 0;
-    private static final int TITLE_INDEX = 1;
-    private static final int PROVIDER_INDEX = 2;
-    private static final int DATE_INDEX = 3;
-    private static final int REV_INDEX = 4;
-    private static final int VIEW_TIME_INDEX = 5;
+    public static final int STB_INDEX = 0;
+    public static final int TITLE_INDEX = 1;
+    public static final int PROVIDER_INDEX = 2;
+    public static final int DATE_INDEX = 3;
+    public static final int REV_INDEX = 4;
+    public static final int VIEW_TIME_INDEX = 5;
     public static final int[] INDEXES =
-        new int[]{SBT_INDEX, TITLE_INDEX, PROVIDER_INDEX, DATE_INDEX, REV_INDEX, VIEW_TIME_INDEX};
+        new int[]{STB_INDEX, TITLE_INDEX, PROVIDER_INDEX, DATE_INDEX, REV_INDEX, VIEW_TIME_INDEX};
 
     private Parser(String delim) {
         this.delim = delim;
@@ -48,7 +46,7 @@ public class Parser {
 
     private void initColumns() {
         columns = new HashMap<>();
-        columns.put(SBT_INDEX, new TextColumn());
+        columns.put(STB_INDEX, new TextColumn());
         columns.put(TITLE_INDEX, new TextColumn());
         columns.put(PROVIDER_INDEX, new TextColumn());
         columns.put(DATE_INDEX, new DateColumn());
@@ -117,7 +115,7 @@ public class Parser {
         }
 
         // unique row key
-        int rowKey = rowKey(segments[SBT_INDEX],
+        int rowKey = rowKey(segments[STB_INDEX],
                             segments[TITLE_INDEX],
                             segments[DATE_INDEX]);
         // appending to our keys string
@@ -148,16 +146,6 @@ public class Parser {
             return;
         }
         headers = Arrays.asList(segments);
-    }
-
-
-    private Stream<String> getLineStream(String fileLocation) {
-        try {
-            return Files.lines(Paths.get(fileLocation));
-        } catch (IOException e) {
-            e.printStackTrace();
-            return Stream.empty();
-        }
     }
 
 

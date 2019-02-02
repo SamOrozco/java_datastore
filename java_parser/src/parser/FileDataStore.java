@@ -3,16 +3,17 @@ package parser;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Collection;
-import java.util.Map;
-import java.util.Set;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.*;
+import java.util.stream.Stream;
 
 public class FileDataStore {
     private static final String pathDelim = isWindows() ? "\\" : "/";
     public static final String newLine = "\r\n";
     private String rootDir = ".";
     private String rowDir = rootDir + pathDelim + ".row";
-    private String rowKeyLoc = rootDir + pathDelim + ".row" + pathDelim + ".keys";
+    private String rowKeyLoc = rowDir + pathDelim + ".keys";
     private String rootColDir = rootDir + pathDelim + ".col";
 
     public FileDataStore() {
@@ -49,6 +50,14 @@ public class FileDataStore {
     }
 
 
+    public List<String> readRow(String key) {
+        String rowLoc = getRowLocation(key);
+        List<String> list = new ArrayList<>(Parser.LINE_LENGTH);
+        getLineStream(rowLoc).forEach(list::add);
+        return list;
+    }
+
+
     public void writeColumn(String columnName, Column column) {
         String path = getColDir(columnName);
         createDirIfNotExists(path);
@@ -61,6 +70,10 @@ public class FileDataStore {
 
     public void writeKeyFile(String contents) {
         writeFile(rowKeyLoc, contents);
+    }
+
+    public Stream<String> readRowKeys() {
+        return getLineStream(rowKeyLoc);
     }
 
     private String getColDir(String colName) {
@@ -111,6 +124,10 @@ public class FileDataStore {
         return rowDir + pathDelim + key;
     }
 
+    private String getRowLocation(String key) {
+        return rowDir + pathDelim + key;
+    }
+
 
     private boolean createDirIfNotExists(String location) {
         File file = new File(location);
@@ -125,4 +142,15 @@ public class FileDataStore {
         String os = System.getProperty("os.name");
         return os.toLowerCase().contains("windows");
     }
+
+
+    public static Stream<String> getLineStream(String fileLocation) {
+        try {
+            return Files.lines(Paths.get(fileLocation));
+        } catch (IOException e) {
+            e.printStackTrace();
+            return Stream.empty();
+        }
+    }
+
 }
