@@ -9,7 +9,7 @@ import java.io.FileNotFoundException;
 import java.util.List;
 
 public class QueryParserTest {
-    public static final String fileLocation = "files/test1.txt";
+    public static final String fileLocation = "files/test10.txt";
 
     public static void main(String[] args) throws FileNotFoundException {
         Parser parser = Parser.newPipeParser();

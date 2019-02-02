@@ -161,11 +161,12 @@ public class Parser {
             while (true) {
                 try {
                     if ((line = lineQueue.poll(100, TimeUnit.MILLISECONDS)) == null) break;
-                    lineCount = parseCount.getAndIncrement();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
+                lineCount = parseCount.get();
                 parse(line, lineCount);
+                parseCount.incrementAndGet();
             }
         };
     }
