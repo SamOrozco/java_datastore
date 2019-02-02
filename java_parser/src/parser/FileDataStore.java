@@ -1,11 +1,15 @@
 package parser;
 
+import query.Row;
+import query.Select;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class FileDataStore {
@@ -15,6 +19,13 @@ public class FileDataStore {
     private String rowDir = rootDir + pathDelim + ".row";
     private String rowKeyLoc = rowDir + pathDelim + ".keys";
     private String rootColDir = rootDir + pathDelim + ".col";
+
+    public static final String STB = "STB";
+    public static final String TITLE = "TITLE";
+    public static final String PROVIDER = "PROVIDER";
+    public static final String DATE = "DATE";
+    public static final String REV = "REV";
+    public static final String VIEW_TIME = "VIEW_TIME";
 
     public FileDataStore() {
     }
@@ -42,6 +53,37 @@ public class FileDataStore {
         }
     }
 
+    public List<String> getRowsFromColAndValue(String colName, String value) {
+        int val = -1;
+        switch (colName) {
+            case STB:
+                val = Converters.getStringConverter().convert(value);
+                return getRowsIds(getColDataDir(colName, String.valueOf(val)));
+            case TITLE:
+                val = Converters.getStringConverter().convert(value);
+                return getRowsIds(getColDataDir(colName, String.valueOf(val)));
+            case PROVIDER:
+                val = Converters.getStringConverter().convert(value);
+                return getRowsIds(getColDataDir(colName, String.valueOf(val)));
+            case DATE:
+                val = Converters.getDateConverter().convert(value);
+                return getRowsIds(getColDataDir(colName, String.valueOf(val)));
+            case REV:
+                val = Converters.getFloatConverter().convert(value);
+                return getRowsIds(getColDataDir(colName, String.valueOf(val)));
+            case VIEW_TIME:
+                val = Converters.getTimeConverter().convert(value);
+                return getRowsIds(getColDataDir(colName, String.valueOf(val)));
+            default:
+                return new ArrayList<>();
+        }
+    }
+
+
+    private List<String> getRowsIds(String loc) {
+        return getLineStream(loc).collect(Collectors.toList());
+    }
+
 
     public void writeRow(int rowKey, String[] values) {
         String contents = getRowVal(values);
@@ -55,6 +97,16 @@ public class FileDataStore {
         List<String> list = new ArrayList<>(Parser.LINE_LENGTH);
         getLineStream(rowLoc).forEach(list::add);
         return list;
+    }
+
+
+    public List<Row> readRowsFromKeys(Select select, List<String> values) {
+        List<Row> result = new ArrayList<>();
+        for (String key : values) {
+            List<String> vals = readRow(key);
+            result.add(new Row(vals, select));
+        }
+        return result;
     }
 
 
@@ -78,6 +130,10 @@ public class FileDataStore {
 
     private String getColDir(String colName) {
         return rootColDir + pathDelim + colName;
+    }
+
+    private String getColDataDir(String colName, String value) {
+        return rootColDir + pathDelim + colName + pathDelim + value;
     }
 
     private void writeFile(String location, String contents) {

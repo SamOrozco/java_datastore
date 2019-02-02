@@ -3,10 +3,10 @@ stb1|the matrix|warner bros|2014-04-01|4.00|1:30
 stb211|unbreakable|buena vista|2014-04-03|6.00|2:05
 stb2|the hobbit|warner bros|2014-04-02|8.00|2:45
 stb4|the matrix|warner bros|2014-04-02|4.00|1:05
-stb6|the matrix|warner bros|2014-04-01|4.00|1:30
+stb6|sam orozco|warner bros|2014-04-01|4.00|1:30
 stb7|unbreakable|buena vista|2014-04-03|6.00|2:05
 stb8|the hobbit|warner bros|2014-04-02|8.00|2:45
-stb9|the matrix|warner bros|2014-04-02|4.00|1:05
+stb9|sam orozco|warner bros|2014-04-02|4.00|1:05
 stb10|the matrix|warner bros|2014-04-01|4.00|1:30
 stb11|unbreakable|buena vista|2014-04-03|6.00|2:05
 stb12|the hobbit|warner bros|2014-04-02|8.00|2:45
@@ -22,16 +22,3 @@ stb3232323|the matrix|warner bros|2014-04-02|4.00|1:05
 stb2323231|the matrix|warner bros|2014-04-01|4.00|1:30
 stb32321|unbreakable|buena vista|2014-04-03|6.00|2:05
 stb23232|3the hobbit|warner bros|2014-04-02|8.00|2:45
-stb3323|the matrix|warner bros|2014-04-02|4.00|1:05
-stb3221|the matrix|warner bros|2014-04-01|4.00|1:30
-stb32221|unbreakable|buena vista|2014-04-03|6.00|2:05
-stb22323|the hobbit|warner bros|2014-04-02|8.00|2:45
-stb322323|the matrix|warner bros|2014-04-02|4.00|1:05
-stb1323223|the matrix|warner bros|2014-04-01|4.00|1:30
-stb13232|unbreakable|buena vista|2014-04-03|6.00|2:05
-stb232323|the hobbit|warner bros|2014-04-02|8.00|2:45
-stb332323|the matrix|warner bros|2014-04-02|4.00|1:05
-stb13223|the matrix|warner bros|2014-04-01|4.00|1:30
-stb132323|unbreakable|buena vista|2014-04-03|6.00|2:05
-stb2322332|the hobbit|warner bros|2014-04-02|8.00|2:45
-stb33232|the matrix|warner bros|2014-04-02|4.00|1:05

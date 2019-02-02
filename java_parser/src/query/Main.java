@@ -16,10 +16,11 @@ public class Main {
     }};
 
     public static void main(String[] args) {
+        long startTime = System.currentTimeMillis();
         boolean order = false;
         boolean select = false;
         boolean filter = false;
-        FileDataStore fileDataStore = new FileDataStore();
+        FileDataStore store = new FileDataStore();
         if (args.length % 2 != 0) { // if args aren't even it is a bad combo
             throw new RuntimeException("invalid argument combination");
         }
@@ -49,16 +50,29 @@ public class Main {
         if (!filter) {
             final List<Row> rows = new LinkedList<>();
             // we need to read all rows
-            fileDataStore.readRowKeys().forEach(key -> {
-                List<String> values = fileDataStore.readRow(key);
+            store.readRowKeys().forEach(key -> {
+                List<String> values = store.readRow(key);
                 rows.add(new Row(values, selector));
             });
             order(rows, ordr);
             finalRows = rows;
         } else {
+            // if we get here a filter was passed
+            // build a filter map
+            Filter filt = new Filter(flagMap.get(filterString));
+            List<String> result = new ArrayList<>();
+            for (Map.Entry<String, String> entry : filt.getFilterMap().entrySet()) {
+                result.addAll(store.getRowsFromColAndValue(entry.getKey(), entry.getValue()));
+            }
 
+            List<Row> rows = store.readRowsFromKeys(selector, result);
+            order(rows, ordr);
+            finalRows = rows;
         }
 
+
+        System.out
+            .println(String.format("query ran %d ms", System.currentTimeMillis() - startTime));
         for (Row row : finalRows) {
             System.out.println(row);
         }
