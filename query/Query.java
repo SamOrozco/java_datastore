@@ -77,6 +77,7 @@ public class Query {
             order(rows, ordr);
             finalRows = rows;
         }
+
         return finalRows;
     }
 

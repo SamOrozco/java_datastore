@@ -108,7 +108,7 @@ public class Row {
         if (viewTime != null && !viewTime.isEmpty()) {
             builder.append(viewTime).append(",");
         }
-        return builder.toString();
+        return builder.deleteCharAt(builder.length() - 1).toString();
     }
 
 
