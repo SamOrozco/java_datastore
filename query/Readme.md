@@ -14,5 +14,7 @@ The Query application expects the current working directory looks like this:
 
 The current available options for the query tool: 
 Flag: `-s select flag e.g. STB,TITLE` only select STB, TITLE
+
 Flag: `-o order flag e.g. STB,TITLE` order by STB, TITLE
+
 Flag: `-f filter flag e.g. DATE=2014-04-10` select only rows where Date=2014-04-10
