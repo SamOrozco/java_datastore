@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java_parser/java_parser.iml" filepath="$PROJECT_DIR$/java_parser/java_parser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/same_hashcode/same_hashcode.iml" filepath="$PROJECT_DIR$/same_hashcode/same_hashcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_datastore.iml" filepath="$PROJECT_DIR$/java_datastore.iml" />
     </modules>
   </component>
 </project>
