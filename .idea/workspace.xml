@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="791e19f4-3237-4eb8-a760-c05412a4d0b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/parser/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/parser/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/query/Readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parser/Readme.md">
+        <entry file="file://$PROJECT_DIR$/query/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
-                <caret line="87" column="67" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
+              <first_editor relative-caret-position="598">
+                <caret line="23" column="113" lean-forward="true" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
               </first_editor>
               <second_editor />
             </state>
@@ -57,7 +57,6 @@
         <option value="$PROJECT_DIR$/files/test1.txt" />
         <option value="$PROJECT_DIR$/files/test10.txt" />
         <option value="$PROJECT_DIR$/files/test0.txt" />
-        <option value="$PROJECT_DIR$/query/Readme.md" />
         <option value="$PROJECT_DIR$/parser/Store.java" />
         <option value="$PROJECT_DIR$/query/Row.java" />
         <option value="$PROJECT_DIR$/parser/Parser.java" />
@@ -73,6 +72,7 @@
         <option value="$PROJECT_DIR$/parser/FileDataStore.java" />
         <option value="$PROJECT_DIR$/parser/RowStore.java" />
         <option value="$PROJECT_DIR$/parser/Readme.md" />
+        <option value="$PROJECT_DIR$/query/Readme.md" />
       </list>
     </option>
   </component>
@@ -125,7 +125,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549156795774" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549156952552" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -408,12 +408,12 @@
       <updated>1549093321463</updated>
       <workItem from="1549093322833" duration="5246000" />
       <workItem from="1549141297968" duration="307000" />
-      <workItem from="1549141747598" duration="4749000" />
+      <workItem from="1549141747598" duration="4865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13482000" />
+    <option name="totallyTimeSpent" value="13598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="894" extended-state="0" />
@@ -424,9 +424,9 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26190478" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.09977064" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.09977064" />
       <window_info anchor="bottom" id="Tool Output" order="1" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
@@ -542,16 +542,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.col/DATE/471228800" />
     <entry file="file://$PROJECT_DIR$/.row/-1591689027" />
-    <entry file="file://$PROJECT_DIR$/query/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="234">
-            <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/test0.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -787,8 +777,18 @@
     <entry file="file://$PROJECT_DIR$/parser/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="87" column="67" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
+          <first_editor relative-caret-position="454">
+            <caret line="121" column="1" lean-forward="true" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="598">
+            <caret line="23" column="113" lean-forward="true" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
           </first_editor>
           <second_editor />
         </state>
