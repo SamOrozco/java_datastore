@@ -18,8 +18,8 @@ stb3|the matrix|warner bros|2014-04-02|4.00|1:05
 The parser first initializes, or confirms the initialization, of two directories, `.row` and `.col`.
 
 The **.row** directory contains a single files for each row read from the data file. 
-The row-files name is a hashed unique identifier(ID) that can be used to find the row. The is makes looking a row up
-by ID an O(1) operation. You simple check to see if the file `.row/<unique_hash_id>` exists. One key thing about the 
+The row-files name is a hashed unique identifier(ID) that can be used to find the row. Tis makes looking a row up
+by ID an O(1) operation. You simply check to see if the file `.row/<unique_hash_id>` exists. One key thing about the 
 `.row` directory is the **.keys** file. The **.keys** files is a new-line separate file containing every unique row identifier for all rows. 
 This file allows us to iterate all rows. 
 
@@ -85,7 +85,7 @@ Column value file
 
 While parsing each row the column data is all grouped together by their unique **values**. 
 A column value-file is a file with the file-name of the hashed value with the contents of new-line separated rowKeys. 
-This makes looking for rows with a certain value an O(1) operation.
+This makes looking for rows with a certain column value an O(1) operation.
 
 
 This file structure allows for a persistent storage system that can be quickly queried.
