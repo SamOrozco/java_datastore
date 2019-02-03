@@ -70,7 +70,7 @@ public class Filter implements Expression {
                 // add one to escape the close paren
                 i += parenToks.length + 1;
                 Expression expr = readTokens(parenToks, null);
-                if (current == null) { // firest expression had parens
+                if (current == null) { // first expression had parens
                     current = expr;
                     continue;
                 }
