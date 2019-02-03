@@ -1,34 +1,26 @@
 # Parser
 ---
 
-*The parsers job is to take in a path to a file, read the contents 
-of that file as rows, and then write that data to disc in a way that is appropriate for querying.*
+*The parsers job is to take a path to a data file, read the contents 
+of that file as rows, and then write that data to disc in a way that is conducive to querying.*
 
+**File Format**
 
-Process of the parser:
-- read lines from files and add to Threadsafe queue
-- spawn a process that will read lines from queue and process
-- write data to disk to be queried later
-
-
-The Parser uses a Blocking queue as the thread safe communication 
-between our read thread(main thread reading lines from file), and the process thread.
- 
-The process thread pull rows out of the queue if any are available. It will split split the data
-into their respective columns and prepare the data for writing to disk.
-
-The data is then written to disc in way that is really beneficial for exact match lookups.
-
-The output of the parse should be: 
 ```
-.col
-    - dirs for all column name
-        - list files with name of values for column
-            - each file has a pointer to all rows that have value for column
-.row
-    .keys // files listing all avail row keys
-    - list of files with rowkey as files name
+STB|TITLE|PROVIDER|DATE|REV|VIEW_TIME 
+stb1|the matrix|warner bros|2014-04-01|4.00|1:30 
+stb1|unbreakable|buena vista|2014-04-03|6.00|2:05 
+stb2|the hobbit|warner bros|2014-04-02|8.00|2:45 
+stb3|the matrix|warner bros|2014-04-02|4.00|1:05 
 ```
+
+
+The parser first initializes, or confirms the initialization, of two directories, `.row` and `.col`.
+
+The **.row** directory contains a single files for each row read from the data file. 
+The row-files name is a hashed unique identifier(ID) that can be used to find the row. The is makes looking a row up
+by ID an O(1) operation. You simple check to see if the file `.row/<unique_hash_id>` exists.  
+
 
 
 
