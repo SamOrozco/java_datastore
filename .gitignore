@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 .col
 .row
+.idea/workspace.xml
 java_datastore.iml
 out/production/java_datastore/.gitignore
 out/production/java_datastore/.idea/

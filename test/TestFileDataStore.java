@@ -16,11 +16,5 @@ public class TestFileDataStore {
             System.out.println("file data store init isn't working");
             System.exit(1);
         }
-
-        fileDataStore.cleanUp();
-        if (fileDataStore.isInitialized()) {
-            System.out.println("file data store cleanup isn't working");
-            System.exit(1);
-        }
     }
 }

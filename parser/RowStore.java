@@ -23,5 +23,5 @@ public interface RowStore {
 
     boolean isInitialized();
 
-    void cleanUp();
+    void writeFile(String loc, String contents);
 }

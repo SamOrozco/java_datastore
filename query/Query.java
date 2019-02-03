@@ -53,7 +53,7 @@ public class Query {
 
 
         Select selector = new Select(flagMap.get(selectString));
-        Select ordr = new Select(flagMap.get(orderString));
+        Order ordr = new Order(flagMap.get(orderString));
         List<Row> finalRows = null;
         if (!hasFilter) {
             final List<Row> rows = new LinkedList<>();
@@ -62,7 +62,6 @@ public class Query {
                 List<String> values = store.readRow(key);
                 rows.add(new Row(values, selector));
             });
-            order(rows, ordr);
             finalRows = rows;
         } else {
             // if we get here a filter was passed
@@ -74,41 +73,12 @@ public class Query {
             }
 
             List<Row> rows = store.readRowsFromKeys(selector, result);
-            order(rows, ordr);
             finalRows = rows;
         }
 
+        System.out.println(String.format("row count %d", finalRows.size()));
+        ordr.order(finalRows);
         return finalRows;
-    }
-
-
-    private static void order(List<Row> rows, Select order) {
-        Comparator<Row> rowComparator = null;
-        if (order.isStb()) {
-            rowComparator = addComp(rowComparator, Row.stbComp());
-        }
-        if (order.isTitle()) {
-            rowComparator = addComp(rowComparator, Row.titleComp());
-        }
-
-        if (order.isProvider()) {
-            rowComparator = addComp(rowComparator, Row.providerComp());
-        }
-
-        if (order.isDate()) {
-            rowComparator = addComp(rowComparator, Row.getDateComp());
-        }
-
-        if (order.isRev()) {
-            rowComparator = addComp(rowComparator, Row.getRevComp());
-        }
-
-        if (order.isViewTime()) {
-            rowComparator = addComp(rowComparator, Row.getViewTimComp());
-        }
-        if (rowComparator != null) {
-            rows.sort(rowComparator);
-        }
     }
 
     private static Comparator<Row> addComp(Comparator<Row> rowComparator, Comparator<Row> comp) {

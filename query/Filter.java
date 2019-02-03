@@ -27,7 +27,7 @@ public class Filter {
             return;
         }
         String value = segments[1].trim();
-        addFilter(colName, value);
+        addFilter(colName.toUpperCase(), value);
     }
 
     private void addFilter(String colName, String value) {

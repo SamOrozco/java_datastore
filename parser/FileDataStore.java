@@ -56,16 +56,6 @@ public class FileDataStore implements RowStore {
     }
 
 
-    public void cleanUp() {
-        if (!deleteDirIfNotExists(rowDir)) {
-            throw new RuntimeException(String.format("unable to delete dir %s", rowDir));
-        }
-        if (!deleteDirIfNotExists(rootColDir)) {
-            throw new RuntimeException(String.format("unable to delete dir %s", rootColDir));
-        }
-    }
-
-
     public boolean isInitialized() {
         return dirExists(rootDir) && dirExists(rowDir) && dirExists(rootColDir);
     }
@@ -97,8 +87,19 @@ public class FileDataStore implements RowStore {
     }
 
 
+    /**
+     * This method any error that occurs just means that data doesn't exists
+     * so it will return an empty record set
+     *
+     * @param loc
+     * @return
+     */
     private List<String> getRowsIds(String loc) {
-        return getLineStream(loc).collect(Collectors.toList());
+        try {
+            return getLineStream(loc).collect(Collectors.toList());
+        } catch (Exception e) {
+            return Collections.emptyList();
+        }
     }
 
 
@@ -153,7 +154,7 @@ public class FileDataStore implements RowStore {
         return rootColDir + pathDelim + colName + pathDelim + value;
     }
 
-    private void writeFile(String location, String contents) {
+    public void writeFile(String location, String contents) {
         File file = new File(location);
         try {
             FileWriter writer = new FileWriter(file, false);
@@ -238,11 +239,17 @@ public class FileDataStore implements RowStore {
     }
 
 
+    /**
+     * This method assumes any errors that occur are due to data not exiting and will
+     * return an empty record set
+     *
+     * @param fileLocation
+     * @return
+     */
     public static Stream<String> getLineStream(String fileLocation) {
         try {
             return Files.lines(Paths.get(fileLocation));
         } catch (IOException e) {
-            e.printStackTrace();
             return Stream.empty();
         }
     }
