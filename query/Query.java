@@ -2,6 +2,7 @@ package query;
 
 import parser.FileDataStore;
 import parser.RowStore;
+import query.filter.Filter;
 
 import java.util.*;
 
@@ -53,11 +54,12 @@ public class Query {
 
 
         Select selector = new Select(flagMap.get(selectString));
-        Order ordr = new Order(flagMap.get(orderString));
+        Order order = new Order(flagMap.get(orderString));
         List<Row> finalRows = null;
+
+        // if there is no filter fetch all rows
         if (!hasFilter) {
             final List<Row> rows = new LinkedList<>();
-            // we need to read all rows
             store.readRowKeys().forEach(key -> {
                 List<String> values = store.readRow(key);
                 rows.add(new Row(values, selector));
@@ -66,18 +68,12 @@ public class Query {
         } else {
             // if we get here a filter was passed
             // build a filter map
-            Filter filt = new Filter(flagMap.get(filterString));
-            List<String> result = new ArrayList<>();
-            for (Map.Entry<String, String> entry : filt.getFilterMap().entrySet()) {
-                result.addAll(store.getRowsFromColAndValue(entry.getKey(), entry.getValue()));
-            }
-
-            List<Row> rows = store.readRowsFromKeys(selector, result);
-            finalRows = rows;
+            Filter filter = new Filter(flagMap.get(filterString), store, selector);
+            finalRows = new ArrayList<>(filter.eval());
         }
 
         System.out.println(String.format("row count %d", finalRows.size()));
-        ordr.order(finalRows);
+        order.order(finalRows);
         return finalRows;
     }
 

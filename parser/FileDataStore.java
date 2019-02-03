@@ -62,7 +62,7 @@ public class FileDataStore implements RowStore {
 
     public List<String> getRowsFromColAndValue(String colName, String value) {
         int val = -1;
-        switch (colName) {
+        switch (colName.toUpperCase()) {
             case STB:
                 val = Converters.getStringConverter().convert(value);
                 return getRowsIds(getColDataDir(colName, String.valueOf(val)));
@@ -106,7 +106,7 @@ public class FileDataStore implements RowStore {
     public void writeRow(int rowKey, String[] values) {
         String contents = getRowVal(values);
         String rowLocation = getRowLocation(rowKey);
-        writeFile(rowLocation, contents);
+        storeContents(rowLocation, contents);
     }
 
 
@@ -138,12 +138,17 @@ public class FileDataStore implements RowStore {
         }
     }
 
-    public void writeKeyFile(String contents) {
-        writeFile(rowKeyLoc, contents);
+    public void storeRowKeys(String contents) {
+        storeContents(rowKeyLoc, contents);
     }
 
     public Stream<String> readRowKeys() {
         return getLineStream(rowKeyLoc);
+    }
+
+    @Override
+    public List<String> getRowKeys() {
+        return readRowKeys().collect(Collectors.toList());
     }
 
     private String getColDir(String colName) {
@@ -154,7 +159,7 @@ public class FileDataStore implements RowStore {
         return rootColDir + pathDelim + colName + pathDelim + value;
     }
 
-    public void writeFile(String location, String contents) {
+    public void storeContents(String location, String contents) {
         File file = new File(location);
         try {
             FileWriter writer = new FileWriter(file, false);

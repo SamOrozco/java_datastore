@@ -59,6 +59,6 @@ public class FileGenerator {
         }
 
         FileDataStore store = new FileDataStore();
-        store.writeFile(String.format("./files/test%d.txt", num), builder.toString());
+        store.storeContents(String.format("./files/test%d.txt", num), builder.toString());
     }
 }
