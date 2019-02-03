@@ -3,6 +3,7 @@ package parser;
 import query.Row;
 import query.Select;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -39,7 +40,7 @@ public interface RowStore {
      * @param values
      * @return
      */
-    List<Row> readRowsFromKeys(Select select, List<String> values);
+    List<Row> readRowsFromKeys(Select select, Collection<String> values);
 
     /**
      * This method persists the given column for the given columnName

@@ -42,9 +42,9 @@ public class AdvancedExpression implements Expression {
     }
 
     @Override
-    public Set<Row> eval() {
-        Collection<Row> leftList = left.eval();
-        Collection<Row> rightList = right.eval();
+    public Set<String> eval() {
+        Collection<String> leftList = left.eval();
+        Collection<String> rightList = right.eval();
         if (operator == Operator.AND) {
             // retain only keeps items that are in both lists
             leftList.retainAll(rightList);

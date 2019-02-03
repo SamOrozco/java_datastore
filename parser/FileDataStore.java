@@ -118,7 +118,7 @@ public class FileDataStore implements RowStore {
     }
 
 
-    public List<Row> readRowsFromKeys(Select select, List<String> values) {
+    public List<Row> readRowsFromKeys(Select select, Collection<String> values) {
         List<Row> result = new ArrayList<>();
         for (String key : values) {
             List<String> vals = readRow(key);

@@ -69,7 +69,9 @@ public class Query {
             // if we get here a filter was passed
             // build a filter map
             Filter filter = new Filter(flagMap.get(filterString), store, selector);
-            finalRows = new ArrayList<>(filter.eval());
+            Collection<String> unqKeys = filter.eval();
+            // we have all the keys we want to query before we read anything from disk
+            finalRows = store.readRowsFromKeys(selector, unqKeys);
         }
 
         System.out.println(String.format("row count %d", finalRows.size()));

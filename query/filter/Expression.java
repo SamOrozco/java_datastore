@@ -1,9 +1,8 @@
 package query.filter;
 
-import query.Row;
-
 import java.util.Collection;
 
 public interface Expression {
-    Collection<Row> eval();
+    // returns a collection of row keys
+    Collection<String> eval();
 }

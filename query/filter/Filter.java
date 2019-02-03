@@ -1,12 +1,9 @@
 package query.filter;
 
 import parser.RowStore;
-import query.Row;
 import query.Select;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.regex.Pattern;
 
 public class Filter implements Expression {
@@ -17,6 +14,10 @@ public class Filter implements Expression {
     private static final String andUnq = unq + "and" + unq;
     private static final String or = " or ";
     private static final String orUnq = unq + "or " + unq;
+    private static final String openParen = "(";
+    private static final String openParenUnq = unq + "(" + unq;
+    private static final String closeParen = ")";
+    private static final String closeParenUnq = unq + ")" + unq;
     private final RowStore store;
     private final Select select;
     private Expression root;
@@ -45,12 +46,38 @@ public class Filter implements Expression {
         filter = filter.toLowerCase();
         String repl = filter.replace(and, andUnq);
         repl = repl.replace(or, orUnq);
+        repl = repl.replace(openParen, openParenUnq);
+        repl = repl.replace(closeParen, closeParenUnq);
         String[] tokens = repl.split(Pattern.quote(unq));
+        return readTokens(tokens, root);
+    }
 
-        Expression current = root;
+
+    private Expression readTokens(String[] tokens, Expression expression) {
+        Expression current = expression;
         Operator operator = null;
         for (int i = 0; i < tokens.length; i++) {
-            String val = tokens[i].trim().toLowerCase();
+
+            String val = tokens[i];
+            if (val == null || val.isEmpty()) {
+                continue;
+            } else {
+                val = val.trim().toLowerCase();
+            }
+            if (val.equals(openParen)) {
+                String[] parenToks = findTokens(i + 1, tokens);
+                // increase by read count
+                // add one to escape the close paren
+                i += parenToks.length + 1;
+                Expression expr = readTokens(parenToks, null);
+                if (current == null) { // firest expression had parens
+                    current = expr;
+                    continue;
+                }
+                // else combine our expression
+                current = new AdvancedExpression(current, expr, operator);
+                continue;
+            }
             if (current == null) {
                 // we assume first token is expresion
                 current = parseFilter(val);
@@ -66,14 +93,27 @@ public class Filter implements Expression {
             }
 
             if (isAdvanced(val)) {
-                root = new AdvancedExpression(current, parseAdvanced(cleanseEdges(val)), op);
+                expression = new AdvancedExpression(current, parseAdvanced(cleanseEdges(val)), op);
             } else {
-                root = new AdvancedExpression(current, parseFilter(val), op);
+                expression = new AdvancedExpression(current, parseFilter(val), op);
             }
-            current = root;
+            current = expression;
             operator = null;
         }
-        return root;
+        return current;
+    }
+
+
+    private String[] findTokens(int index, String[] args) {
+        List<String> vals = new ArrayList<>();
+        for (int i = index; i < args.length; i++) {
+            String val = args[i];
+            if (val.equals(closeParen)) {
+                return vals.toArray(new String[0]);
+            }
+            vals.add(args[i]);
+        }
+        throw new RuntimeException("malformed query no closing parenthesis");
     }
 
 
@@ -175,9 +215,9 @@ public class Filter implements Expression {
     }
 
     @Override
-    public Collection<Row> eval() {
+    public Collection<String> eval() {
         if (this.root == null) {
-            return store.readRowsFromKeys(select, store.getRowKeys());
+            return store.getRowKeys();
         }
         return root.eval();
     }

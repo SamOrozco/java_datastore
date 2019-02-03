@@ -1,7 +1,6 @@
 package query.filter;
 
 import parser.RowStore;
-import query.Row;
 import query.Select;
 
 import java.util.List;
@@ -39,9 +38,8 @@ public class SingleExpression implements Expression {
     }
 
     @Override
-    public List<Row> eval() {
-        List<String> rowKeys = store.getRowsFromColAndValue(col, value);
-        return store.readRowsFromKeys(select, rowKeys);
+    public List<String> eval() {
+        return store.getRowsFromColAndValue(col, value);
     }
 
     public RowStore getStore() {
