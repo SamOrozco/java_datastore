@@ -85,7 +85,7 @@ Column value file
 
 While parsing each row the column data is all grouped together by their unique **values**. 
 A column value-file is a file with the file-name of the hashed value with the contents of new-line separated rowKeys. 
-This makes looking for rows with a certain value an O(1) operator.
+This makes looking for rows with a certain value an O(1) operation.
 
 
 This file structure allows for a persistent storage system that can be quickly queried.

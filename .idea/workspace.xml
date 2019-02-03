@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/parser/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="708">
-                <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+              <first_editor relative-caret-position="119">
+                <caret line="87" column="67" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
               </first_editor>
               <second_editor />
             </state>
@@ -125,7 +125,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549156675412" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549156795774" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -408,12 +408,12 @@
       <updated>1549093321463</updated>
       <workItem from="1549093322833" duration="5246000" />
       <workItem from="1549141297968" duration="307000" />
-      <workItem from="1549141747598" duration="4717000" />
+      <workItem from="1549141747598" duration="4749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13450000" />
+    <option name="totallyTimeSpent" value="13482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="894" extended-state="0" />
@@ -787,8 +787,8 @@
     <entry file="file://$PROJECT_DIR$/parser/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="708">
-            <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+          <first_editor relative-caret-position="119">
+            <caret line="87" column="67" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
           </first_editor>
           <second_editor />
         </state>
