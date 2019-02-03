@@ -84,8 +84,42 @@ Column value file
 
 
 While parsing each row the column data is all grouped together by their unique **values**. 
-A column value file is a file with the name of the hashed value and the contents and new-line separated rowKeys. 
-This makes looking for rows with a certain value an O(1) operator. 
+A column value-file is a file with the file-name of the hashed value with the contents of new-line separated rowKeys. 
+This makes looking for rows with a certain value an O(1) operator.
+
+
+This file structure allows for a persistent storage system that can be quickly queried.
+
+**O(1) row lookup**
+```java
+if (rowFileExists(".row" + "/" + rowKey)) {
+    return contentsAsString();
+}
+```
+
+
+
+**O(1) filter value lookup**
+```java
+filter=DATE=2014-04-12
+//hasfile 
+int hash = Objects.hashCode("2014-04-12")
+if (valueFileExists(".col" + "/" + "DATE" + "/" + hash)) {
+    // read all row keys from here then go read result
+}
+``` 
+
+The runtime complexity of a query in this case is R + 1,
+ R being the size of the result set that need to be iterated and read from disc. 
+
+
+
+
+
+
+
+
+ 
 
 
 
