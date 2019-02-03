@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="791e19f4-3237-4eb8-a760-c05412a4d0b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/query/filter/AdvancedExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query/filter/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query/filter/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query/filter/SingleExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/FileDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/parser/FileDataStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/parser/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/RowStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/parser/RowStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/filter/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/FileGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/FileGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query/filter/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/filter/Filter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,12 +40,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/query/filter/Filter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-145">
-              <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
+            <state relative-caret-position="140">
+              <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
               <folding>
-                <element signature="e#3024#3025#0" expanded="true" />
-                <element signature="e#4776#4777#0" expanded="true" />
-                <element signature="e#4881#4882#0" expanded="true" />
+                <element signature="e#3065#3066#0" expanded="true" />
+                <element signature="e#4817#4818#0" expanded="true" />
+                <element signature="e#4922#4923#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549185637292" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549185871739" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -493,12 +483,12 @@
       <workItem from="1549093322833" duration="5246000" />
       <workItem from="1549141297968" duration="307000" />
       <workItem from="1549141747598" duration="5289000" />
-      <workItem from="1549178389484" duration="6879000" />
+      <workItem from="1549178389484" duration="7113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20901000" />
+    <option name="totallyTimeSpent" value="21135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="894" extended-state="0" />
@@ -597,6 +587,18 @@
           <line>42</line>
           <properties />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/query/filter/Filter.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/query/filter/Filter.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -948,12 +950,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/query/filter/Filter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
+        <state relative-caret-position="140">
+          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
           <folding>
-            <element signature="e#3024#3025#0" expanded="true" />
-            <element signature="e#4776#4777#0" expanded="true" />
-            <element signature="e#4881#4882#0" expanded="true" />
+            <element signature="e#3065#3066#0" expanded="true" />
+            <element signature="e#4817#4818#0" expanded="true" />
+            <element signature="e#4922#4923#0" expanded="true" />
           </folding>
         </state>
       </provider>

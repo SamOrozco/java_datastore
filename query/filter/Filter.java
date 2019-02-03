@@ -33,7 +33,6 @@ public class Filter implements Expression {
         if (filter == null || filter.isEmpty()) {
             return;
         }
-
         if (isAdvanced(filter)) {
             root = parseAdvanced(filter);
         } else {
@@ -50,15 +49,16 @@ public class Filter implements Expression {
 
         Expression current = root;
         Operator operator = null;
-        for (int i = 0; i < tokens.length - 1; i++) {
+        for (int i = 0; i < tokens.length; i++) {
             String val = tokens[i].trim().toLowerCase();
             if (current == null) {
                 // we assume first token is expresion
                 current = parseFilter(val);
+                continue;
             }
             Operator op = getOperator(val);
             boolean isOp = op != null;
-            if (!isOp) { // malformed query
+            if (!isOp && operator == null) { // malformed query
                 throw new RuntimeException("malformed query expected operator");
             } else if (operator == null) {
                 operator = op;
