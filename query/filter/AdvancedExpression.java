@@ -67,6 +67,7 @@ public class AdvancedExpression implements Expression {
 
     @Override
     public void print() {
+        System.out.print("<");
         if (left != null) {
             left.print();
         }
@@ -80,5 +81,6 @@ public class AdvancedExpression implements Expression {
         if (right != null) {
             right.print();
         }
+        System.out.print(">");
     }
 }
