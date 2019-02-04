@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="791e19f4-3237-4eb8-a760-c05412a4d0b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/query/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/query/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/QueryParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/QueryParserTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/QueryParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+            <state relative-caret-position="215">
+              <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,12 +37,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="309">
-                <caret line="25" column="119" lean-forward="true" selection-start-line="25" selection-start-column="119" selection-end-line="25" selection-end-column="119" />
+                <caret line="25" column="119" selection-start-line="25" selection-start-column="119" selection-end-line="25" selection-end-column="119" />
               </first_editor>
               <second_editor />
             </state>
@@ -119,9 +119,9 @@
         <option value="$PROJECT_DIR$/query/Query.java" />
         <option value="$PROJECT_DIR$/query/filter/SingleExpression.java" />
         <option value="$PROJECT_DIR$/query/filter/Filter.java" />
-        <option value="$PROJECT_DIR$/test/QueryParserTest.java" />
         <option value="$PROJECT_DIR$/query/filter/AdvancedExpression.java" />
         <option value="$PROJECT_DIR$/query/Readme.md" />
+        <option value="$PROJECT_DIR$/test/QueryParserTest.java" />
       </list>
     </option>
   </component>
@@ -163,7 +163,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549261426172" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549261778901" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -390,7 +390,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27887000" />
+    <option name="totallyTimeSpent" value="27998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="894" extended-state="0" />
@@ -401,9 +401,9 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26862028" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26862028" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3055199" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3055199" />
       <window_info anchor="bottom" id="Tool Output" order="1" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
@@ -416,7 +416,7 @@
       <window_info anchor="bottom" id="SBT Console" order="10" />
       <window_info anchor="bottom" id="Message" order="11" />
       <window_info anchor="bottom" id="Find" order="12" weight="0.32991013" />
-      <window_info anchor="bottom" id="Run" order="13" weight="0.32991013" />
+      <window_info active="true" anchor="bottom" id="Run" order="13" visible="true" weight="0.32991013" />
       <window_info anchor="bottom" id="Debug" order="14" weight="0.3992298" />
       <window_info anchor="bottom" id="Cvs" order="15" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="16" weight="0.4" />
@@ -689,7 +689,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="309">
-            <caret line="25" column="119" lean-forward="true" selection-start-line="25" selection-start-column="119" selection-end-line="25" selection-end-column="119" />
+            <caret line="25" column="119" selection-start-line="25" selection-start-column="119" selection-end-line="25" selection-end-column="119" />
           </first_editor>
           <second_editor />
         </state>
@@ -785,16 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/QueryParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/query/Query.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -816,6 +806,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/QueryParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

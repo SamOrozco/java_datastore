@@ -59,9 +59,10 @@ public class QueryParserTest {
         String[] queryArgs4 =
             new String[]{"-f", "STB=stb1 or (TITLE=shrek and REV=12.1)"};
         List<Row> rows4 = Query.run(queryArgs4, true);
-        if (rows4.size() != 230) {
+        if (rows4.size() != 13) {
             System.out.println("first query test count not correct");
             System.exit(1);
         }
+        System.out.println("Pass");
     }
 }
