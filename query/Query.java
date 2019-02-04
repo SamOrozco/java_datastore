@@ -27,8 +27,7 @@ public class Query {
 
 
     public static List<Row> run(String[] args) {
-        Query query = new Query(args);
-        return query.execute(false);
+        return run(args, false);
     }
 
 
