@@ -44,6 +44,9 @@ public class Parser {
         return new Parser("|");
     }
 
+    /**
+     * This methods add some predefined columns to the column map
+     */
     private void initColumns() {
         columns = new HashMap<>();
         columns.put(STB_INDEX, new TextColumn());
@@ -55,11 +58,21 @@ public class Parser {
     }
 
 
+    /**
+     * This method constructs our file data store
+     * The FileDataStore constructor initializes the file structure
+     */
     private void initFileStructure() {
         this.dataStore = new FileDataStore();
     }
 
 
+    /**
+     * This method reads the data file from the given location. It parses and then stores the data locally.
+     *
+     * @param fileLocation
+     * @throws FileNotFoundException
+     */
     public void store(String fileLocation) throws FileNotFoundException {
         File file = new File(fileLocation);
         if (!file.exists()) {
@@ -68,7 +81,7 @@ public class Parser {
 
         Stream<String> lineStream = getLineStream(fileLocation);
 
-        //read from block queue async
+        //read from blocking queue async
         try {
             CompletableFuture.runAsync(parseLinesFromQueue());
         } catch (Exception e) {
@@ -97,10 +110,8 @@ public class Parser {
         for (int index : INDEXES) {
             this.dataStore.writeColumn(headers.get(index), columns.get(index));
         }
-
         // write keys to disc
-        this.dataStore.writeKeyFile(keys.toString());
-
+        this.dataStore.storeRowKeys(keys.toString());
     }
 
 
@@ -117,6 +128,7 @@ public class Parser {
         int rowKey = rowKey(segments[STB_INDEX],
                             segments[TITLE_INDEX],
                             segments[DATE_INDEX]);
+
         // appending to our keys string
         keys.append(rowKey).append(newLine);
         // write our rows to disc with their unique key
@@ -125,10 +137,13 @@ public class Parser {
         for (int index : INDEXES) {
             Column col = null;
             if ((col = columns.get(index)) != null) {
+                // we are adding our unique hashed value to the columns map with
+                // the row identifier as the value
                 col.addValue(segments[index], rowKey);
             }
         }
     }
+
 
 
     private int rowKey(String sbt, String title, String date) {

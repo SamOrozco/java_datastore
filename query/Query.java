@@ -2,11 +2,12 @@ package query;
 
 import parser.FileDataStore;
 import parser.RowStore;
+import query.filter.Filter;
 
 import java.util.*;
 
 public class Query {
-    private static Map<String, String> flagMap = new HashMap<>();
+    private Map<String, String> flagMap;
     private static final String selectString = "-s";
     private static final String orderString = "-o";
     private static final String filterString = "-f";
@@ -27,10 +28,19 @@ public class Query {
 
     public static List<Row> run(String[] args) {
         Query query = new Query(args);
-        return query.execute();
+        return query.execute(false);
     }
 
-    public List<Row> execute() {
+
+    public static List<Row> run(String[] args, boolean explainQuery) {
+        Query query = new Query(args);
+        return query.execute(explainQuery);
+    }
+
+    public List<Row> execute(boolean explain) {
+        // refresh flagMap
+        this.flagMap = new HashMap<>();
+
         if (args.length % 2 != 0) { // if args aren't even it is a bad combo
             throw new RuntimeException("invalid argument combination");
         }
@@ -39,25 +49,26 @@ public class Query {
             // if we find a flag we like put it and its value in the map
             switch (current) {
                 case selectString:
-                    flagMap.put(current, args[i + 1]);
+                    flagMap.put(current, args[++i]);
                     break;
                 case orderString:
-                    flagMap.put(current, args[i + 1]);
+                    flagMap.put(current, args[++i]);
                     break;
                 case filterString:
                     hasFilter = true;
-                    flagMap.put(current, args[i + 1]);
+                    flagMap.put(current, args[++i]);
                     break;
             }
         }
 
 
         Select selector = new Select(flagMap.get(selectString));
-        Order ordr = new Order(flagMap.get(orderString));
+        Order order = new Order(flagMap.get(orderString));
         List<Row> finalRows = null;
+
+        // if there is no filter fetch all rows
         if (!hasFilter) {
             final List<Row> rows = new LinkedList<>();
-            // we need to read all rows
             store.readRowKeys().forEach(key -> {
                 List<String> values = store.readRow(key);
                 rows.add(new Row(values, selector));
@@ -66,18 +77,15 @@ public class Query {
         } else {
             // if we get here a filter was passed
             // build a filter map
-            Filter filt = new Filter(flagMap.get(filterString));
-            List<String> result = new ArrayList<>();
-            for (Map.Entry<String, String> entry : filt.getFilterMap().entrySet()) {
-                result.addAll(store.getRowsFromColAndValue(entry.getKey(), entry.getValue()));
-            }
-
-            List<Row> rows = store.readRowsFromKeys(selector, result);
-            finalRows = rows;
+            Filter filter = new Filter(flagMap.get(filterString), store, selector);
+            filter.explain = explain;
+            Collection<String> unqKeys = filter.eval();
+            // we have all the keys we want to query before we read anything from disk
+            finalRows = store.readRowsFromKeys(selector, unqKeys);
         }
 
         System.out.println(String.format("row count %d", finalRows.size()));
-        ordr.order(finalRows);
+        order.order(finalRows);
         return finalRows;
     }
 
