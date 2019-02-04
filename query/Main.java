@@ -11,18 +11,6 @@ public class Main {
         for (Row row : rows) {
             System.out.println(row);
         }
-
-//        StringBuilder builder = new StringBuilder();
-//        builder.append("(");
-//        int cnt = 0;
-//        for (Row row : rows) {
-//            builder.append(String.format("STB=%s", row.getStb()));
-//            if (cnt++ != rows.size() - 1) {
-//                builder.append(" or ");
-//            }
-//        }
-//        builder.append(")");
-//        System.out.println(builder.toString());
     }
 
 }

@@ -93,9 +93,10 @@ public class Filter implements Expression {
             }
 
             if (isAdvanced(val)) {
-                expression = new AdvancedExpression(current, parseAdvanced(cleanseEdges(val)), op);
+                expression =
+                    new AdvancedExpression(current, parseAdvanced(cleanseEdges(val)), operator);
             } else {
-                expression = new AdvancedExpression(current, parseFilter(val), op);
+                expression = new AdvancedExpression(current, parseFilter(val), operator);
             }
             current = expression;
             operator = null;

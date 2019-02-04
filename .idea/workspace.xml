@@ -4,6 +4,7 @@
     <list default="true" id="791e19f4-3237-4eb8-a760-c05412a4d0b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/query/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/query/filter/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/filter/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/QueryParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/QueryParserTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,27 +15,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/query/Query.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parser/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="70" column="83" selection-start-line="70" selection-start-column="83" selection-end-line="70" selection-end-column="83" />
+              <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1581#1582#0" expanded="true" />
+                <element signature="e#1619#1620#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query/filter/Filter.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/QueryParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            <state relative-caret-position="163">
+              <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
               <folding>
-                <element signature="e#4666#4667#0" expanded="true" />
-                <element signature="e#6418#6419#0" expanded="true" />
-                <element signature="e#6523#6524#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,45 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query/filter/AdvancedExpression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parser/RowStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parser/FileDataStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="120" column="81" selection-start-line="120" selection-start-column="81" selection-end-line="120" selection-end-column="81" />
-              <folding>
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="215">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -132,7 +95,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/query/Select.java" />
         <option value="$PROJECT_DIR$/test/FileGenerator.java" />
-        <option value="$PROJECT_DIR$/test/QueryParserTest.java" />
         <option value="$PROJECT_DIR$/test/TestFileDataStore.java" />
         <option value="$PROJECT_DIR$/query/Readme.md" />
         <option value="$PROJECT_DIR$/parser/Readme.md" />
@@ -147,9 +109,10 @@
         <option value="$PROJECT_DIR$/query/filter/AdvancedExpression.java" />
         <option value="$PROJECT_DIR$/parser/FileDataStore.java" />
         <option value="$PROJECT_DIR$/parser/RowStore.java" />
+        <option value="$PROJECT_DIR$/query/Query.java" />
         <option value="$PROJECT_DIR$/query/filter/Filter.java" />
         <option value="$PROJECT_DIR$/query/Main.java" />
-        <option value="$PROJECT_DIR$/query/Query.java" />
+        <option value="$PROJECT_DIR$/test/QueryParserTest.java" />
       </list>
     </option>
   </component>
@@ -173,12 +136,7 @@
             <path>
               <item name="java_datastore" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_datastore" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_datastore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_datastore" type="462c0819:PsiDirectoryNode" />
-              <item name="query" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549188756946" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549258739083" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -210,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test Advanced Query2">
+  <component name="RunManager" selected="Application.QueryParserTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -259,20 +217,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Query Title" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="query.Main" />
-      <module name="java_datastore" />
-      <option name="PROGRAM_PARAMETERS" value=" -f &quot;STB=stb100&quot;" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="query.filter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QueryParserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.QueryParserTest" />
       <module name="java_datastore" />
@@ -280,20 +224,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test 1" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="parser.Main" />
-      <module name="java_datastore" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;$PROJECT_DIR$/files/test0.txt&quot;" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,38 +245,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test 10000" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="parser.Main" />
-      <module name="java_datastore" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;$PROJECT_DIR$/files/test10000.txt&quot;" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test 6000" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="parser.Main" />
-      <module name="java_datastore" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;$PROJECT_DIR$/files/test6000.txt&quot;" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test Advanced Query With Parens" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="query.Main" />
       <module name="java_datastore" />
-      <option name="PROGRAM_PARAMETERS" value="-s STB -f &quot;(STB=stb104 or STB=stb106 or STB=stb110 or STB=stb111 or STB=stb115 or STB=stb120 or STB=stb128 or STB=stb134 or STB=stb137 or STB=stb148 or STB=stb15 or STB=stb151 or STB=stb153 or STB=stb160 or STB=stb163 or STB=stb165 or STB=stb167 or STB=stb170 or STB=stb172 or STB=stb176 or STB=stb185 or STB=stb186 or STB=stb190 or STB=stb194 or STB=stb198 or STB=stb2 or STB=stb20 or STB=stb202 or STB=stb203 or STB=stb210 or STB=stb214 or STB=stb218 or STB=stb22 or STB=stb220 or STB=stb230 or STB=stb235 or STB=stb238 or STB=stb239 or STB=stb244 or STB=stb246 or STB=stb251 or STB=stb255 or STB=stb261 or STB=stb263 or STB=stb268 or STB=stb28 or STB=stb293 or STB=stb297 or STB=stb3 or STB=stb307 or STB=stb309 or STB=stb315 or STB=stb319 or STB=stb325 or STB=stb33 or STB=stb333 or STB=stb336 or STB=stb337 or STB=stb338 or STB=stb340 or STB=stb342 or STB=stb343 or STB=stb35 or STB=stb360 or STB=stb362 or STB=stb364 or STB=stb368 or STB=stb376 or STB=stb382 or STB=stb383 or STB=stb390 or STB=stb395 or STB=stb398 or STB=stb4 or STB=stb409 or STB=stb41 or STB=stb410 or STB=stb415 or STB=stb419 or STB=stb421 or STB=stb422 or STB=stb426 or STB=stb435 or STB=stb443 or STB=stb446 or STB=stb455 or STB=stb456 or STB=stb460 or STB=stb469 or STB=stb47 or STB=stb477 or STB=stb478 or STB=stb479 or STB=stb48 or STB=stb480 or STB=stb483 or STB=stb49 or STB=stb494 or STB=stb497 or STB=stb507 or STB=stb51 or STB=stb513 or STB=stb514 or STB=stb52 or STB=stb522 or STB=stb524 or STB=stb527 or STB=stb528 or STB=stb529 or STB=stb53 or STB=stb537 or STB=stb541 or STB=stb544 or STB=stb548 or STB=stb552 or STB=stb563 or STB=stb57 or STB=stb570 or STB=stb573 or STB=stb576 or STB=stb579 or STB=stb58 or STB=stb580 or STB=stb587 or STB=stb603 or STB=stb606 or STB=stb609 or STB=stb615 or STB=stb617 or STB=stb620 or STB=stb626 or STB=stb627 or STB=stb629 or STB=stb632 or STB=stb643 or STB=stb646 or STB=stb648 or STB=stb650 or STB=stb654 or STB=stb659 or STB=stb660 or STB=stb662 or STB=stb667 or STB=stb67 or STB=stb672 or STB=stb678 or STB=stb681 or STB=stb688 or STB=stb689 or STB=stb697 or STB=stb700 or STB=stb701 or STB=stb702 or STB=stb706 or STB=stb710 or STB=stb712 or STB=stb716 or STB=stb717 or STB=stb722 or STB=stb732 or STB=stb736 or STB=stb747 or STB=stb753 or STB=stb754 or STB=stb759 or STB=stb763 or STB=stb764 or STB=stb767 or STB=stb778 or STB=stb781 or STB=stb786 or STB=stb79 or STB=stb792 or STB=stb797 or STB=stb799 or STB=stb802 or STB=stb812 or STB=stb813 or STB=stb814 or STB=stb817 or STB=stb819 or STB=stb829 or STB=stb830 or STB=stb838 or STB=stb853 or STB=stb855 or STB=stb86 or STB=stb860 or STB=stb87 or STB=stb882 or STB=stb885 or STB=stb886 or STB=stb887 or STB=stb898 or STB=stb9 or STB=stb900 or STB=stb901 or STB=stb905 or STB=stb911 or STB=stb92 or STB=stb920 or STB=stb921 or STB=stb93 or STB=stb935 or STB=stb948 or STB=stb95 or STB=stb952 or STB=stb957 or STB=stb959 or STB=stb964 or STB=stb967 or STB=stb968 or STB=stb973 or STB=stb974 or STB=stb979 or STB=stb99 or STB=stb991 or STB=stb993)&quot; -o STB" />
+      <option name="PROGRAM_PARAMETERS" value="-f &quot;(STB=stb104 or STB=stb106 or STB=stb110 or STB=stb111 or STB=stb115 or STB=stb120 or STB=stb128 or STB=stb134 or STB=stb137 or STB=stb148 or STB=stb15 or STB=stb151 or STB=stb153 or STB=stb160 or STB=stb163 or STB=stb165 or STB=stb167 or STB=stb170 or STB=stb172 or STB=stb176 or STB=stb185 or STB=stb186 or STB=stb190 or STB=stb194 or STB=stb198 or STB=stb2 or STB=stb20 or STB=stb202 or STB=stb203 or STB=stb210 or STB=stb214 or STB=stb218 or STB=stb22 or STB=stb220 or STB=stb230 or STB=stb235 or STB=stb238 or STB=stb239 or STB=stb244 or STB=stb246 or STB=stb251 or STB=stb255 or STB=stb261 or STB=stb263 or STB=stb268 or STB=stb28 or STB=stb293 or STB=stb297 or STB=stb3 or STB=stb307 or STB=stb309 or STB=stb315 or STB=stb319 or STB=stb325 or STB=stb33 or STB=stb333 or STB=stb336 or STB=stb337 or STB=stb338 or STB=stb340 or STB=stb342 or STB=stb343 or STB=stb35 or STB=stb360 or STB=stb362 or STB=stb364 or STB=stb368 or STB=stb376 or STB=stb382 or STB=stb383 or STB=stb390 or STB=stb395 or STB=stb398 or STB=stb4 or STB=stb409 or STB=stb41 or STB=stb410 or STB=stb415 or STB=stb419 or STB=stb421 or STB=stb422 or STB=stb426 or STB=stb435 or STB=stb443 or STB=stb446 or STB=stb455 or STB=stb456 or STB=stb460 or STB=stb469 or STB=stb47 or STB=stb477 or STB=stb478 or STB=stb479 or STB=stb48 or STB=stb480 or STB=stb483 or STB=stb49 or STB=stb494 or STB=stb497 or STB=stb507 or STB=stb51 or STB=stb513 or STB=stb514 or STB=stb52 or STB=stb522 or STB=stb524 or STB=stb527 or STB=stb528 or STB=stb529 or STB=stb53 or STB=stb537 or STB=stb541 or STB=stb544 or STB=stb548 or STB=stb552 or STB=stb563 or STB=stb57 or STB=stb570 or STB=stb573 or STB=stb576 or STB=stb579 or STB=stb58 or STB=stb580 or STB=stb587 or STB=stb603 or STB=stb606 or STB=stb609 or STB=stb615 or STB=stb617 or STB=stb620 or STB=stb626 or STB=stb627 or STB=stb629 or STB=stb632 or STB=stb643 or STB=stb646 or STB=stb648 or STB=stb650 or STB=stb654 or STB=stb659 or STB=stb660 or STB=stb662 or STB=stb667 or STB=stb67 or STB=stb672 or STB=stb678 or STB=stb681 or STB=stb688 or STB=stb689 or STB=stb697 or STB=stb700 or STB=stb701 or STB=stb702 or STB=stb706 or STB=stb710 or STB=stb712 or STB=stb716 or STB=stb717 or STB=stb722 or STB=stb732 or STB=stb736 or STB=stb747 or STB=stb753 or STB=stb754 or STB=stb759 or STB=stb763 or STB=stb764 or STB=stb767 or STB=stb778 or STB=stb781 or STB=stb786 or STB=stb79 or STB=stb792 or STB=stb797 or STB=stb799 or STB=stb802 or STB=stb812 or STB=stb813 or STB=stb814 or STB=stb817 or STB=stb819 or STB=stb829 or STB=stb830 or STB=stb838 or STB=stb853 or STB=stb855 or STB=stb86 or STB=stb860 or STB=stb87 or STB=stb882 or STB=stb885 or STB=stb886 or STB=stb887 or STB=stb898 or STB=stb9 or STB=stb900 or STB=stb901 or STB=stb905 or STB=stb911 or STB=stb92 or STB=stb920 or STB=stb921 or STB=stb93 or STB=stb935 or STB=stb948 or STB=stb95 or STB=stb952 or STB=stb957 or STB=stb959 or STB=stb964 or STB=stb967 or STB=stb968 or STB=stb973 or STB=stb974 or STB=stb979 or STB=stb99 or STB=stb991 or STB=stb993)&quot; -o STB" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="query.filter.*" />
@@ -360,24 +262,10 @@
     <configuration name="Test Advanced Query2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="query.Main" />
       <module name="java_datastore" />
-      <option name="PROGRAM_PARAMETERS" value="-s STB -f &quot;STB=stb1 or (TITLE=the hobbit and REV=12.1)&quot; -o STB" />
+      <option name="PROGRAM_PARAMETERS" value="-f &quot;STB=stb1 or (TITLE=the hobbit and STB=stb282)&quot; -o STB -s STB,TITLE,REV" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="query.filter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFileDataStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.TestFileDataStore" />
-      <module name="java_datastore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,24 +305,17 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test 1000" />
-      <item itemvalue="Application.Test 1" />
-      <item itemvalue="Application.Test 10000" />
       <item itemvalue="Application.Query Title Order Title" />
       <item itemvalue="Application.Test Advanced Query With Parens" />
       <item itemvalue="Application.Test Advanced Query2" />
       <item itemvalue="Application.Query All" />
-      <item itemvalue="Application.Test 6000" />
-      <item itemvalue="Application.Query Title" />
-      <item itemvalue="Application.TestFileDataStore" />
-      <item itemvalue="Application.QueryParserTest" />
       <item itemvalue="Application.FileGenerator" />
+      <item itemvalue="Application.QueryParserTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestFileDataStore" />
         <item itemvalue="Application.QueryParserTest" />
         <item itemvalue="Application.FileGenerator" />
-        <item itemvalue="Application.Query Title" />
       </list>
     </recent_temporary>
   </component>
@@ -490,12 +371,12 @@
       <workItem from="1549093322833" duration="5246000" />
       <workItem from="1549141297968" duration="307000" />
       <workItem from="1549141747598" duration="5289000" />
-      <workItem from="1549178389484" duration="9993000" />
+      <workItem from="1549178389484" duration="11148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24015000" />
+    <option name="totallyTimeSpent" value="25170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="894" extended-state="0" />
@@ -579,18 +460,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/query/filter/Filter.java</url>
-          <line>102</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/parser/Column.java">
@@ -715,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/test_lock.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/nio/file/Files.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -774,17 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="337" column="12" selection-start-line="337" selection-start-column="12" selection-end-line="337" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="110" column="27" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
-          <folding>
-            <element signature="e#1581#1582#0" expanded="true" />
-            <element signature="e#1619#1620#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,37 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser/FileDataStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="120" column="81" selection-start-line="120" selection-start-column="81" selection-end-line="120" selection-end-column="81" />
-          <folding>
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser/RowStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query/filter/AdvancedExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/FileGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
@@ -907,31 +727,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/QueryParserTest.java">
+    <entry file="file://$PROJECT_DIR$/query/filter/Filter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="140">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#4698#4699#0" expanded="true" />
+            <element signature="e#6450#6451#0" expanded="true" />
+            <element signature="e#6555#6556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/query/Main.java">
+    <entry file="file://$PROJECT_DIR$/query/filter/AdvancedExpression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+        <state relative-caret-position="316">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/query/filter/Filter.java">
+    <entry file="file://$PROJECT_DIR$/parser/RowStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        <state relative-caret-position="158">
+          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
           <folding>
-            <element signature="e#4666#4667#0" expanded="true" />
-            <element signature="e#6418#6419#0" expanded="true" />
-            <element signature="e#6523#6524#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser/FileDataStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="120" column="81" selection-start-line="120" selection-start-column="81" selection-end-line="120" selection-end-column="81" />
+          <folding>
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -939,10 +783,35 @@
     <entry file="file://$PROJECT_DIR$/files/test1000.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/query/Query.java">
+    <entry file="file://$PROJECT_DIR$/files/test_lock.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="70" column="83" selection-start-line="70" selection-start-column="83" selection-end-line="70" selection-end-column="83" />
+          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+          <folding>
+            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/QueryParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
