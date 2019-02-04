@@ -50,7 +50,7 @@ public class Filter implements Expression {
         repl = repl.replace(openParen, openParenUnq);
         repl = repl.replace(closeParen, closeParenUnq);
         String[] tokens = repl.split(Pattern.quote(unq));
-        return readTokens(tokens, root);
+        return readTokens(removeEmpty(tokens), root);
     }
 
 
@@ -111,11 +111,23 @@ public class Filter implements Expression {
         for (int i = index; i < args.length; i++) {
             String val = args[i];
             if (val.equals(closeParen) || val.isEmpty()) {
-                return vals.toArray(new String[0]);
+                return removeEmpty(vals.toArray(new String[0]));
             }
             vals.add(args[i]);
         }
-        throw new RuntimeException("malformed query no closing parenthesis");
+        // going to hope the query is formed how we want
+        return removeEmpty(vals.toArray(new String[0]));
+    }
+
+
+    private String[] removeEmpty(String[] vals) {
+        List<String> list = new ArrayList<>(vals.length);
+        for (String val : vals) {
+            if (val != null && !val.isEmpty()) {
+                list.add(val);
+            }
+        }
+        return list.toArray(new String[0]);
     }
 
 
@@ -219,7 +231,7 @@ public class Filter implements Expression {
     @Override
     public Collection<String> eval() {
         if (explain) {
-            System.out.println("EXPLAIN:");
+            System.out.print("EXPLAIN:");
             this.print();
         }
         if (this.root == null) {
