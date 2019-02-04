@@ -1,0 +1,1001 @@
+STB|TITLE|PROVIDER|DATE|REV|VIEW_TIME
+stb0|the night before christmas|netflex|2014-04-10|120|2:20
+stb1|lord of the rings|netflex|2014-04-10|6.0|2:20
+stb2|princess bride|tv|2014-06-20|6.0|2:20
+stb3|shrek|netflex|2014-06-20|12.1|2:20
+stb4|princess bride|hulu|2014-06-20|20|9:00
+stb5|harry potter|netflex|2014-04-10|9.0|1:00
+stb6|spider man|hulu|2014-12-10|8.10|1:00
+stb7|lord of the rings|warner bros|2014-06-20|20|2:20
+stb8|harry potter|amazon prime|2014-04-10|12|2:20
+stb9|shrek|netflex|2014-12-10|8.10|9:00
+stb10|the night before christmas|tv|2014-12-10|6.0|1:00
+stb11|harry potter|tv|2014-04-10|9.0|1:00
+stb12|lord of the rings|amazon prime|2014-12-10|12|1:00
+stb13|friday night lights|netflex|2014-06-20|9.0|2:20
+stb14|friday night lights|amazon prime|2014-06-20|12.1|2:20
+stb15|princess bride|hulu|2014-04-10|8.10|2:20
+stb16|the hobbit|netflex|2014-04-10|8.10|2:20
+stb17|harry potter|netflex|2014-06-20|15.5|2:20
+stb18|spider man|netflex|2014-06-20|6.0|1:00
+stb19|lord of the rings|netflex|2014-06-20|15.5|9:00
+stb20|shrek|warner bros|2014-04-10|20|2:20
+stb21|the hobbit|amazon prime|2014-12-10|9.0|9:00
+stb22|shrek|netflex|2014-06-20|8.10|2:20
+stb23|the hobbit|hulu|2014-04-10|12.1|1:00
+stb24|the night before christmas|warner bros|2014-12-10|12.1|2:20
+stb25|friday night lights|warner bros|2014-12-10|12|9:00
+stb26|the hobbit|hulu|2014-04-10|120|2:20
+stb27|friday night lights|hulu|2014-06-20|6.0|9:00
+stb28|shrek|amazon prime|2014-12-10|6.0|1:00
+stb29|spider man|amazon prime|2014-12-10|8.10|9:00
+stb30|the hobbit|hulu|2014-12-10|15.5|2:20
+stb31|harry potter|netflex|2014-12-10|9.0|1:00
+stb32|lord of the rings|amazon prime|2014-12-10|15.5|9:00
+stb33|princess bride|hulu|2014-12-10|12.1|9:00
+stb34|harry potter|tv|2014-12-10|6.0|1:00
+stb35|shrek|tv|2014-06-20|6.0|9:00
+stb36|the hobbit|hulu|2014-12-10|8.10|2:20
+stb37|the night before christmas|hulu|2014-12-10|15.5|9:00
+stb38|harry potter|netflex|2014-04-10|9.0|2:20
+stb39|the hobbit|netflex|2014-12-10|15.5|2:20
+stb40|harry potter|amazon prime|2014-06-20|20|9:00
+stb41|shrek|netflex|2014-12-10|12|2:20
+stb42|spider man|warner bros|2014-04-10|8.10|9:00
+stb43|harry potter|amazon prime|2014-12-10|15.5|2:20
+stb44|the hobbit|warner bros|2014-12-10|8.10|2:20
+stb45|friday night lights|hulu|2014-06-20|6.0|1:00
+stb46|friday night lights|warner bros|2014-12-10|8.10|9:00
+stb47|shrek|netflex|2014-06-20|20|1:00
+stb48|shrek|netflex|2014-04-10|9.0|9:00
+stb49|shrek|tv|2014-06-20|12|2:20
+stb50|spider man|hulu|2014-06-20|9.0|2:20
+stb51|shrek|netflex|2014-04-10|12|9:00
+stb52|princess bride|warner bros|2014-04-10|9.0|2:20
+stb53|princess bride|warner bros|2014-04-10|15.5|1:00
+stb54|spider man|warner bros|2014-06-20|6.0|2:20
+stb55|the night before christmas|amazon prime|2014-06-20|8.10|1:00
+stb56|the hobbit|warner bros|2014-12-10|8.10|2:20
+stb57|princess bride|tv|2014-12-10|20|9:00
+stb58|princess bride|amazon prime|2014-06-20|120|2:20
+stb59|lord of the rings|amazon prime|2014-12-10|8.10|1:00
+stb60|harry potter|netflex|2014-06-20|20|1:00
+stb61|friday night lights|warner bros|2014-12-10|20|1:00
+stb62|friday night lights|tv|2014-12-10|8.10|1:00
+stb63|harry potter|amazon prime|2014-06-20|120|2:20
+stb64|spider man|netflex|2014-04-10|9.0|9:00
+stb65|the night before christmas|amazon prime|2014-06-20|15.5|9:00
+stb66|the hobbit|tv|2014-12-10|6.0|9:00
+stb67|princess bride|warner bros|2014-06-20|20|1:00
+stb68|spider man|netflex|2014-04-10|15.5|9:00
+stb69|harry potter|netflex|2014-06-20|15.5|9:00
+stb70|harry potter|tv|2014-12-10|6.0|9:00
+stb71|spider man|warner bros|2014-12-10|8.10|2:20
+stb72|friday night lights|warner bros|2014-06-20|15.5|2:20
+stb73|the hobbit|netflex|2014-04-10|9.0|2:20
+stb74|harry potter|tv|2014-04-10|6.0|9:00
+stb75|the hobbit|netflex|2014-06-20|8.10|2:20
+stb76|the hobbit|netflex|2014-12-10|15.5|2:20
+stb77|holes|netflex|2014-04-10|15.5|9:00
+stb78|spider man|netflex|2014-06-20|8.10|2:20
+stb79|shrek|tv|2014-06-20|8.10|1:00
+stb80|the hobbit|tv|2014-04-10|6.0|9:00
+stb81|lord of the rings|tv|2014-04-10|8.10|1:00
+stb82|spider man|amazon prime|2014-04-10|12|1:00
+stb83|the night before christmas|warner bros|2014-04-10|15.5|9:00
+stb84|lord of the rings|hulu|2014-12-10|6.0|1:00
+stb85|harry potter|amazon prime|2014-12-10|9.0|1:00
+stb86|shrek|tv|2014-04-10|12.1|9:00
+stb87|shrek|hulu|2014-12-10|20|2:20
+stb88|friday night lights|netflex|2014-12-10|20|9:00
+stb89|holes|netflex|2014-04-10|120|9:00
+stb90|harry potter|tv|2014-04-10|120|9:00
+stb91|holes|tv|2014-12-10|12|2:20
+stb92|princess bride|warner bros|2014-06-20|9.0|2:20
+stb93|shrek|hulu|2014-04-10|9.0|9:00
+stb94|friday night lights|netflex|2014-12-10|120|1:00
+stb95|shrek|netflex|2014-04-10|8.10|1:00
+stb96|spider man|hulu|2014-06-20|12.1|1:00
+stb97|the hobbit|netflex|2014-06-20|9.0|9:00
+stb98|spider man|hulu|2014-06-20|8.10|1:00
+stb99|princess bride|netflex|2014-06-20|9.0|9:00
+stb100|holes|tv|2014-12-10|12.1|2:20
+stb101|spider man|amazon prime|2014-06-20|9.0|9:00
+stb102|spider man|netflex|2014-12-10|9.0|1:00
+stb103|holes|netflex|2014-06-20|12.1|1:00
+stb104|shrek|netflex|2014-04-10|12|1:00
+stb105|spider man|amazon prime|2014-06-20|20|1:00
+stb106|princess bride|netflex|2014-12-10|12|2:20
+stb107|the night before christmas|tv|2014-12-10|15.5|9:00
+stb108|spider man|warner bros|2014-06-20|12.1|9:00
+stb109|the night before christmas|hulu|2014-06-20|12|2:20
+stb110|shrek|netflex|2014-06-20|120|1:00
+stb111|princess bride|tv|2014-04-10|12|2:20
+stb112|holes|netflex|2014-04-10|9.0|2:20
+stb113|lord of the rings|netflex|2014-12-10|20|2:20
+stb114|friday night lights|warner bros|2014-06-20|9.0|1:00
+stb115|princess bride|tv|2014-04-10|120|1:00
+stb116|harry potter|netflex|2014-06-20|15.5|9:00
+stb117|the hobbit|tv|2014-12-10|6.0|2:20
+stb118|lord of the rings|netflex|2014-04-10|15.5|2:20
+stb119|harry potter|hulu|2014-04-10|120|9:00
+stb120|shrek|hulu|2014-04-10|12|2:20
+stb121|spider man|netflex|2014-12-10|6.0|9:00
+stb122|holes|netflex|2014-12-10|9.0|1:00
+stb123|lord of the rings|netflex|2014-06-20|12|2:20
+stb124|friday night lights|warner bros|2014-12-10|20|2:20
+stb125|holes|hulu|2014-12-10|8.10|9:00
+stb126|holes|netflex|2014-04-10|12.1|1:00
+stb127|the hobbit|netflex|2014-06-20|9.0|1:00
+stb128|shrek|warner bros|2014-04-10|9.0|9:00
+stb129|spider man|warner bros|2014-12-10|20|1:00
+stb130|the night before christmas|netflex|2014-06-20|12.1|1:00
+stb131|lord of the rings|amazon prime|2014-04-10|9.0|2:20
+stb132|harry potter|amazon prime|2014-12-10|12.1|2:20
+stb133|holes|warner bros|2014-04-10|12.1|1:00
+stb134|princess bride|netflex|2014-12-10|12|9:00
+stb135|harry potter|tv|2014-12-10|8.10|1:00
+stb136|friday night lights|netflex|2014-04-10|20|9:00
+stb137|shrek|tv|2014-06-20|12|1:00
+stb138|lord of the rings|hulu|2014-06-20|12|9:00
+stb139|harry potter|netflex|2014-04-10|20|9:00
+stb140|harry potter|netflex|2014-12-10|6.0|9:00
+stb141|friday night lights|hulu|2014-04-10|6.0|2:20
+stb142|the night before christmas|netflex|2014-04-10|6.0|1:00
+stb143|the hobbit|netflex|2014-12-10|8.10|1:00
+stb144|holes|warner bros|2014-12-10|6.0|1:00
+stb145|spider man|warner bros|2014-12-10|8.10|9:00
+stb146|the night before christmas|hulu|2014-04-10|12|2:20
+stb147|lord of the rings|warner bros|2014-06-20|6.0|1:00
+stb148|princess bride|netflex|2014-06-20|15.5|9:00
+stb149|friday night lights|warner bros|2014-12-10|12|1:00
+stb150|spider man|netflex|2014-06-20|20|2:20
+stb151|shrek|amazon prime|2014-12-10|120|9:00
+stb152|lord of the rings|tv|2014-04-10|20|1:00
+stb153|shrek|amazon prime|2014-06-20|9.0|1:00
+stb154|lord of the rings|netflex|2014-04-10|12.1|9:00
+stb155|the hobbit|tv|2014-04-10|8.10|9:00
+stb156|harry potter|warner bros|2014-06-20|12.1|1:00
+stb157|harry potter|netflex|2014-06-20|120|2:20
+stb158|spider man|amazon prime|2014-12-10|12|2:20
+stb159|lord of the rings|tv|2014-06-20|12.1|9:00
+stb160|princess bride|warner bros|2014-12-10|15.5|9:00
+stb161|harry potter|tv|2014-04-10|120|9:00
+stb162|holes|netflex|2014-04-10|12.1|1:00
+stb163|princess bride|tv|2014-12-10|120|9:00
+stb164|the hobbit|hulu|2014-12-10|20|2:20
+stb165|shrek|netflex|2014-04-10|20|1:00
+stb166|the night before christmas|warner bros|2014-12-10|6.0|2:20
+stb167|shrek|netflex|2014-04-10|12|1:00
+stb168|holes|netflex|2014-06-20|8.10|2:20
+stb169|friday night lights|amazon prime|2014-06-20|8.10|1:00
+stb170|shrek|netflex|2014-04-10|15.5|9:00
+stb171|friday night lights|netflex|2014-06-20|12|2:20
+stb172|shrek|warner bros|2014-12-10|9.0|2:20
+stb173|the hobbit|netflex|2014-12-10|8.10|1:00
+stb174|lord of the rings|hulu|2014-04-10|6.0|1:00
+stb175|friday night lights|tv|2014-04-10|120|2:20
+stb176|shrek|hulu|2014-12-10|6.0|9:00
+stb177|lord of the rings|netflex|2014-12-10|20|1:00
+stb178|holes|netflex|2014-06-20|120|1:00
+stb179|the hobbit|netflex|2014-06-20|15.5|1:00
+stb180|spider man|tv|2014-06-20|12|2:20
+stb181|friday night lights|netflex|2014-04-10|9.0|1:00
+stb182|friday night lights|warner bros|2014-04-10|120|1:00
+stb183|the hobbit|hulu|2014-06-20|120|2:20
+stb184|spider man|hulu|2014-04-10|20|2:20
+stb185|shrek|amazon prime|2014-04-10|15.5|9:00
+stb186|shrek|amazon prime|2014-12-10|9.0|2:20
+stb187|the hobbit|netflex|2014-12-10|20|2:20
+stb188|spider man|amazon prime|2014-04-10|9.0|1:00
+stb189|holes|warner bros|2014-06-20|9.0|1:00
+stb190|princess bride|netflex|2014-04-10|20|9:00
+stb191|the night before christmas|warner bros|2014-04-10|8.10|9:00
+stb192|the hobbit|netflex|2014-12-10|8.10|1:00
+stb193|friday night lights|netflex|2014-06-20|12.1|1:00
+stb194|shrek|hulu|2014-06-20|12.1|1:00
+stb195|the night before christmas|amazon prime|2014-12-10|12.1|9:00
+stb196|the night before christmas|amazon prime|2014-12-10|6.0|2:20
+stb197|holes|amazon prime|2014-06-20|15.5|9:00
+stb198|princess bride|warner bros|2014-06-20|6.0|2:20
+stb199|friday night lights|amazon prime|2014-06-20|6.0|2:20
+stb200|holes|warner bros|2014-06-20|12|9:00
+stb201|harry potter|tv|2014-12-10|9.0|9:00
+stb202|shrek|tv|2014-04-10|15.5|1:00
+stb203|princess bride|warner bros|2014-12-10|12|1:00
+stb204|lord of the rings|warner bros|2014-04-10|9.0|9:00
+stb205|harry potter|netflex|2014-06-20|12.1|9:00
+stb206|friday night lights|hulu|2014-12-10|6.0|1:00
+stb207|harry potter|tv|2014-04-10|15.5|9:00
+stb208|lord of the rings|amazon prime|2014-12-10|12|9:00
+stb209|friday night lights|warner bros|2014-04-10|20|2:20
+stb210|princess bride|tv|2014-06-20|9.0|9:00
+stb211|harry potter|amazon prime|2014-04-10|6.0|2:20
+stb212|friday night lights|warner bros|2014-12-10|20|1:00
+stb213|friday night lights|warner bros|2014-04-10|15.5|1:00
+stb214|shrek|tv|2014-06-20|120|2:20
+stb215|harry potter|netflex|2014-06-20|6.0|9:00
+stb216|friday night lights|warner bros|2014-06-20|6.0|9:00
+stb217|lord of the rings|netflex|2014-06-20|9.0|2:20
+stb218|shrek|warner bros|2014-12-10|6.0|1:00
+stb219|harry potter|netflex|2014-04-10|120|1:00
+stb220|princess bride|warner bros|2014-06-20|20|1:00
+stb221|the night before christmas|hulu|2014-04-10|15.5|9:00
+stb222|friday night lights|tv|2014-12-10|6.0|2:20
+stb223|the night before christmas|hulu|2014-04-10|9.0|2:20
+stb224|lord of the rings|netflex|2014-06-20|12|9:00
+stb225|holes|tv|2014-04-10|120|2:20
+stb226|the night before christmas|netflex|2014-12-10|8.10|2:20
+stb227|lord of the rings|warner bros|2014-12-10|8.10|2:20
+stb228|spider man|amazon prime|2014-06-20|12.1|2:20
+stb229|holes|amazon prime|2014-12-10|120|9:00
+stb230|shrek|netflex|2014-04-10|12|9:00
+stb231|holes|hulu|2014-06-20|12.1|1:00
+stb232|spider man|hulu|2014-04-10|9.0|1:00
+stb233|lord of the rings|netflex|2014-12-10|8.10|2:20
+stb234|the hobbit|hulu|2014-12-10|6.0|9:00
+stb235|shrek|tv|2014-12-10|20|9:00
+stb236|holes|warner bros|2014-04-10|12|1:00
+stb237|holes|netflex|2014-12-10|20|9:00
+stb238|princess bride|hulu|2014-12-10|9.0|1:00
+stb239|princess bride|hulu|2014-06-20|120|9:00
+stb240|spider man|hulu|2014-04-10|12|9:00
+stb241|holes|netflex|2014-04-10|120|9:00
+stb242|lord of the rings|hulu|2014-12-10|120|2:20
+stb243|holes|amazon prime|2014-04-10|12.1|9:00
+stb244|shrek|netflex|2014-06-20|6.0|9:00
+stb245|harry potter|netflex|2014-04-10|120|1:00
+stb246|shrek|amazon prime|2014-04-10|12.1|9:00
+stb247|lord of the rings|hulu|2014-04-10|12|1:00
+stb248|the hobbit|tv|2014-12-10|12.1|2:20
+stb249|harry potter|warner bros|2014-12-10|15.5|2:20
+stb250|the night before christmas|netflex|2014-06-20|120|1:00
+stb251|shrek|tv|2014-04-10|15.5|1:00
+stb252|holes|netflex|2014-12-10|12|1:00
+stb253|friday night lights|amazon prime|2014-04-10|20|9:00
+stb254|the hobbit|amazon prime|2014-12-10|8.10|1:00
+stb255|shrek|netflex|2014-04-10|6.0|9:00
+stb256|the hobbit|tv|2014-04-10|20|2:20
+stb257|the hobbit|tv|2014-06-20|9.0|1:00
+stb258|the night before christmas|netflex|2014-04-10|120|9:00
+stb259|lord of the rings|netflex|2014-12-10|6.0|1:00
+stb260|harry potter|tv|2014-12-10|12|1:00
+stb261|shrek|warner bros|2014-04-10|6.0|9:00
+stb262|the hobbit|amazon prime|2014-04-10|120|9:00
+stb263|shrek|amazon prime|2014-04-10|120|2:20
+stb264|the hobbit|amazon prime|2014-12-10|120|1:00
+stb265|the night before christmas|amazon prime|2014-12-10|120|1:00
+stb266|friday night lights|hulu|2014-04-10|20|9:00
+stb267|lord of the rings|tv|2014-06-20|12.1|9:00
+stb268|shrek|netflex|2014-04-10|8.10|9:00
+stb269|harry potter|warner bros|2014-06-20|6.0|1:00
+stb270|the hobbit|warner bros|2014-06-20|8.10|2:20
+stb271|harry potter|tv|2014-04-10|15.5|1:00
+stb272|lord of the rings|netflex|2014-12-10|12.1|9:00
+stb273|friday night lights|warner bros|2014-12-10|20|9:00
+stb274|the hobbit|hulu|2014-06-20|9.0|2:20
+stb275|harry potter|warner bros|2014-06-20|15.5|1:00
+stb276|harry potter|amazon prime|2014-04-10|15.5|9:00
+stb277|holes|netflex|2014-04-10|12|1:00
+stb278|lord of the rings|netflex|2014-12-10|120|1:00
+stb279|the night before christmas|netflex|2014-04-10|8.10|2:20
+stb280|spider man|tv|2014-06-20|20|1:00
+stb281|holes|hulu|2014-12-10|12|9:00
+stb282|the night before christmas|warner bros|2014-04-10|8.10|2:20
+stb283|holes|hulu|2014-06-20|6.0|2:20
+stb284|spider man|netflex|2014-04-10|120|2:20
+stb285|holes|netflex|2014-12-10|120|9:00
+stb286|the night before christmas|netflex|2014-04-10|12|9:00
+stb287|the night before christmas|netflex|2014-06-20|6.0|2:20
+stb288|friday night lights|netflex|2014-06-20|12|9:00
+stb289|the night before christmas|netflex|2014-04-10|6.0|9:00
+stb290|friday night lights|tv|2014-06-20|9.0|1:00
+stb291|friday night lights|hulu|2014-04-10|9.0|9:00
+stb292|the hobbit|amazon prime|2014-04-10|12|1:00
+stb293|princess bride|amazon prime|2014-12-10|15.5|1:00
+stb294|the hobbit|tv|2014-04-10|9.0|9:00
+stb295|holes|hulu|2014-12-10|12.1|9:00
+stb296|lord of the rings|warner bros|2014-12-10|6.0|2:20
+stb297|princess bride|hulu|2014-12-10|8.10|2:20
+stb298|friday night lights|amazon prime|2014-06-20|9.0|9:00
+stb299|harry potter|amazon prime|2014-12-10|12|2:20
+stb300|harry potter|netflex|2014-06-20|20|9:00
+stb301|holes|hulu|2014-06-20|12|9:00
+stb302|lord of the rings|warner bros|2014-06-20|6.0|9:00
+stb303|friday night lights|hulu|2014-06-20|120|9:00
+stb304|the night before christmas|tv|2014-06-20|6.0|1:00
+stb305|the night before christmas|netflex|2014-04-10|9.0|1:00
+stb306|the night before christmas|netflex|2014-12-10|20|1:00
+stb307|princess bride|netflex|2014-04-10|120|2:20
+stb308|the night before christmas|hulu|2014-04-10|6.0|2:20
+stb309|shrek|amazon prime|2014-12-10|12.1|1:00
+stb310|holes|tv|2014-06-20|15.5|1:00
+stb311|the hobbit|tv|2014-12-10|9.0|9:00
+stb312|spider man|amazon prime|2014-04-10|9.0|1:00
+stb313|the night before christmas|warner bros|2014-06-20|6.0|1:00
+stb314|friday night lights|amazon prime|2014-04-10|20|2:20
+stb315|shrek|warner bros|2014-06-20|15.5|9:00
+stb316|spider man|amazon prime|2014-04-10|15.5|9:00
+stb317|harry potter|tv|2014-06-20|8.10|9:00
+stb318|holes|netflex|2014-12-10|12.1|1:00
+stb319|princess bride|tv|2014-04-10|120|2:20
+stb320|harry potter|netflex|2014-04-10|9.0|2:20
+stb321|lord of the rings|hulu|2014-12-10|6.0|1:00
+stb322|harry potter|netflex|2014-04-10|15.5|9:00
+stb323|the night before christmas|netflex|2014-04-10|6.0|9:00
+stb324|harry potter|warner bros|2014-12-10|12|1:00
+stb325|shrek|tv|2014-06-20|120|9:00
+stb326|spider man|netflex|2014-04-10|12.1|9:00
+stb327|harry potter|amazon prime|2014-04-10|120|1:00
+stb328|holes|tv|2014-04-10|12.1|2:20
+stb329|holes|warner bros|2014-12-10|15.5|9:00
+stb330|lord of the rings|warner bros|2014-12-10|120|9:00
+stb331|the night before christmas|netflex|2014-04-10|20|1:00
+stb332|harry potter|netflex|2014-06-20|15.5|1:00
+stb333|shrek|warner bros|2014-04-10|6.0|9:00
+stb334|the night before christmas|tv|2014-06-20|15.5|9:00
+stb335|friday night lights|netflex|2014-06-20|120|9:00
+stb336|princess bride|netflex|2014-12-10|8.10|9:00
+stb337|shrek|hulu|2014-06-20|20|2:20
+stb338|shrek|tv|2014-04-10|12|1:00
+stb339|the hobbit|amazon prime|2014-04-10|15.5|1:00
+stb340|shrek|hulu|2014-12-10|12|2:20
+stb341|harry potter|hulu|2014-04-10|20|2:20
+stb342|princess bride|warner bros|2014-06-20|120|1:00
+stb343|shrek|hulu|2014-06-20|8.10|2:20
+stb344|the night before christmas|amazon prime|2014-12-10|9.0|2:20
+stb345|the night before christmas|tv|2014-12-10|9.0|9:00
+stb346|lord of the rings|netflex|2014-06-20|15.5|9:00
+stb347|friday night lights|hulu|2014-12-10|12.1|9:00
+stb348|lord of the rings|tv|2014-12-10|12.1|1:00
+stb349|the night before christmas|tv|2014-04-10|12.1|9:00
+stb350|lord of the rings|amazon prime|2014-06-20|12|9:00
+stb351|lord of the rings|warner bros|2014-04-10|120|2:20
+stb352|spider man|hulu|2014-04-10|12.1|2:20
+stb353|the hobbit|amazon prime|2014-12-10|15.5|9:00
+stb354|friday night lights|hulu|2014-04-10|9.0|2:20
+stb355|lord of the rings|warner bros|2014-04-10|8.10|2:20
+stb356|lord of the rings|tv|2014-04-10|15.5|2:20
+stb357|harry potter|netflex|2014-06-20|20|9:00
+stb358|holes|netflex|2014-04-10|120|2:20
+stb359|spider man|warner bros|2014-06-20|20|2:20
+stb360|shrek|netflex|2014-04-10|9.0|2:20
+stb361|friday night lights|hulu|2014-12-10|8.10|2:20
+stb362|princess bride|netflex|2014-12-10|20|2:20
+stb363|friday night lights|hulu|2014-12-10|120|9:00
+stb364|shrek|tv|2014-06-20|9.0|1:00
+stb365|friday night lights|tv|2014-12-10|15.5|1:00
+stb366|harry potter|hulu|2014-12-10|12|1:00
+stb367|lord of the rings|netflex|2014-04-10|15.5|2:20
+stb368|princess bride|hulu|2014-04-10|15.5|9:00
+stb369|spider man|netflex|2014-06-20|8.10|2:20
+stb370|the hobbit|netflex|2014-12-10|15.5|9:00
+stb371|the hobbit|tv|2014-04-10|120|9:00
+stb372|holes|warner bros|2014-06-20|12|9:00
+stb373|the night before christmas|tv|2014-12-10|120|2:20
+stb374|the hobbit|warner bros|2014-12-10|15.5|2:20
+stb375|the hobbit|netflex|2014-06-20|9.0|2:20
+stb376|shrek|warner bros|2014-04-10|120|1:00
+stb377|lord of the rings|netflex|2014-12-10|12.1|9:00
+stb378|the hobbit|netflex|2014-06-20|8.10|1:00
+stb379|the night before christmas|tv|2014-04-10|8.10|1:00
+stb380|holes|tv|2014-04-10|6.0|1:00
+stb381|friday night lights|hulu|2014-06-20|12|2:20
+stb382|shrek|hulu|2014-12-10|9.0|2:20
+stb383|shrek|amazon prime|2014-12-10|15.5|9:00
+stb384|the hobbit|hulu|2014-12-10|15.5|1:00
+stb385|the hobbit|netflex|2014-12-10|12|9:00
+stb386|lord of the rings|netflex|2014-04-10|9.0|9:00
+stb387|harry potter|tv|2014-06-20|15.5|1:00
+stb388|friday night lights|netflex|2014-06-20|20|9:00
+stb389|holes|netflex|2014-06-20|6.0|2:20
+stb390|shrek|hulu|2014-12-10|20|9:00
+stb391|holes|netflex|2014-06-20|120|2:20
+stb392|holes|warner bros|2014-06-20|12.1|9:00
+stb393|the hobbit|amazon prime|2014-12-10|8.10|9:00
+stb394|lord of the rings|tv|2014-12-10|15.5|1:00
+stb395|princess bride|amazon prime|2014-06-20|12|2:20
+stb396|holes|hulu|2014-06-20|120|1:00
+stb397|spider man|tv|2014-06-20|15.5|9:00
+stb398|princess bride|netflex|2014-12-10|12.1|2:20
+stb399|holes|netflex|2014-12-10|120|1:00
+stb400|the hobbit|tv|2014-06-20|6.0|9:00
+stb401|spider man|hulu|2014-04-10|15.5|1:00
+stb402|lord of the rings|warner bros|2014-04-10|6.0|9:00
+stb403|holes|hulu|2014-06-20|20|2:20
+stb404|lord of the rings|hulu|2014-12-10|9.0|2:20
+stb405|friday night lights|netflex|2014-04-10|20|9:00
+stb406|spider man|netflex|2014-06-20|12|1:00
+stb407|the night before christmas|hulu|2014-12-10|20|9:00
+stb408|spider man|netflex|2014-04-10|12|9:00
+stb409|princess bride|netflex|2014-06-20|12|2:20
+stb410|shrek|tv|2014-06-20|12|9:00
+stb411|spider man|netflex|2014-04-10|20|9:00
+stb412|harry potter|amazon prime|2014-06-20|120|2:20
+stb413|lord of the rings|tv|2014-06-20|12.1|2:20
+stb414|the night before christmas|hulu|2014-12-10|12|9:00
+stb415|princess bride|tv|2014-06-20|15.5|9:00
+stb416|lord of the rings|hulu|2014-12-10|12|9:00
+stb417|harry potter|warner bros|2014-04-10|6.0|2:20
+stb418|holes|netflex|2014-12-10|8.10|1:00
+stb419|shrek|warner bros|2014-12-10|20|9:00
+stb420|lord of the rings|tv|2014-06-20|12|9:00
+stb421|shrek|amazon prime|2014-12-10|12|2:20
+stb422|princess bride|amazon prime|2014-04-10|20|9:00
+stb423|spider man|hulu|2014-12-10|6.0|2:20
+stb424|holes|netflex|2014-04-10|9.0|2:20
+stb425|friday night lights|warner bros|2014-04-10|8.10|9:00
+stb426|princess bride|amazon prime|2014-06-20|8.10|2:20
+stb427|holes|warner bros|2014-12-10|15.5|9:00
+stb428|harry potter|netflex|2014-04-10|12|2:20
+stb429|the hobbit|netflex|2014-06-20|12.1|2:20
+stb430|harry potter|tv|2014-06-20|12.1|1:00
+stb431|friday night lights|warner bros|2014-06-20|8.10|2:20
+stb432|spider man|netflex|2014-06-20|15.5|2:20
+stb433|holes|netflex|2014-12-10|15.5|9:00
+stb434|the night before christmas|hulu|2014-04-10|120|1:00
+stb435|princess bride|warner bros|2014-04-10|12|9:00
+stb436|the hobbit|amazon prime|2014-12-10|15.5|2:20
+stb437|holes|netflex|2014-04-10|8.10|1:00
+stb438|harry potter|netflex|2014-04-10|15.5|2:20
+stb439|harry potter|warner bros|2014-04-10|12.1|2:20
+stb440|friday night lights|hulu|2014-06-20|8.10|2:20
+stb441|harry potter|amazon prime|2014-04-10|6.0|2:20
+stb442|friday night lights|amazon prime|2014-06-20|120|1:00
+stb443|princess bride|amazon prime|2014-04-10|12|2:20
+stb444|lord of the rings|warner bros|2014-12-10|12.1|2:20
+stb445|the hobbit|amazon prime|2014-12-10|9.0|2:20
+stb446|princess bride|netflex|2014-04-10|8.10|2:20
+stb447|the night before christmas|tv|2014-04-10|9.0|9:00
+stb448|lord of the rings|netflex|2014-06-20|8.10|9:00
+stb449|spider man|warner bros|2014-04-10|12.1|2:20
+stb450|the night before christmas|hulu|2014-04-10|8.10|2:20
+stb451|holes|tv|2014-12-10|6.0|9:00
+stb452|harry potter|netflex|2014-12-10|20|9:00
+stb453|harry potter|warner bros|2014-06-20|12.1|9:00
+stb454|spider man|netflex|2014-04-10|15.5|1:00
+stb455|princess bride|warner bros|2014-04-10|12|2:20
+stb456|shrek|amazon prime|2014-06-20|15.5|1:00
+stb457|the night before christmas|warner bros|2014-04-10|8.10|9:00
+stb458|the hobbit|netflex|2014-06-20|6.0|2:20
+stb459|friday night lights|hulu|2014-04-10|6.0|2:20
+stb460|shrek|warner bros|2014-04-10|15.5|1:00
+stb461|lord of the rings|netflex|2014-06-20|12.1|9:00
+stb462|lord of the rings|tv|2014-06-20|6.0|9:00
+stb463|the night before christmas|netflex|2014-12-10|15.5|1:00
+stb464|friday night lights|amazon prime|2014-06-20|12.1|9:00
+stb465|lord of the rings|tv|2014-06-20|12|1:00
+stb466|the hobbit|warner bros|2014-04-10|12|1:00
+stb467|friday night lights|netflex|2014-04-10|15.5|9:00
+stb468|spider man|netflex|2014-04-10|9.0|9:00
+stb469|shrek|netflex|2014-06-20|6.0|1:00
+stb470|harry potter|amazon prime|2014-06-20|9.0|2:20
+stb471|the night before christmas|netflex|2014-04-10|120|1:00
+stb472|friday night lights|netflex|2014-12-10|12|9:00
+stb473|holes|hulu|2014-04-10|20|9:00
+stb474|holes|netflex|2014-04-10|15.5|2:20
+stb475|lord of the rings|warner bros|2014-06-20|9.0|2:20
+stb476|friday night lights|warner bros|2014-06-20|15.5|9:00
+stb477|shrek|amazon prime|2014-12-10|9.0|9:00
+stb478|princess bride|amazon prime|2014-06-20|9.0|1:00
+stb479|princess bride|amazon prime|2014-04-10|6.0|2:20
+stb480|princess bride|netflex|2014-06-20|9.0|9:00
+stb481|the night before christmas|warner bros|2014-06-20|6.0|2:20
+stb482|harry potter|netflex|2014-06-20|9.0|9:00
+stb483|shrek|amazon prime|2014-06-20|12|9:00
+stb484|lord of the rings|hulu|2014-04-10|6.0|9:00
+stb485|holes|amazon prime|2014-04-10|120|9:00
+stb486|the night before christmas|netflex|2014-06-20|15.5|2:20
+stb487|the hobbit|netflex|2014-12-10|15.5|9:00
+stb488|spider man|netflex|2014-04-10|120|2:20
+stb489|friday night lights|amazon prime|2014-12-10|6.0|9:00
+stb490|holes|netflex|2014-04-10|20|2:20
+stb491|the hobbit|netflex|2014-04-10|6.0|2:20
+stb492|harry potter|tv|2014-06-20|9.0|9:00
+stb493|holes|netflex|2014-06-20|20|2:20
+stb494|princess bride|amazon prime|2014-06-20|9.0|2:20
+stb495|friday night lights|netflex|2014-06-20|120|1:00
+stb496|spider man|amazon prime|2014-04-10|120|9:00
+stb497|shrek|amazon prime|2014-12-10|12.1|2:20
+stb498|holes|tv|2014-04-10|9.0|9:00
+stb499|holes|netflex|2014-06-20|12.1|9:00
+stb500|lord of the rings|warner bros|2014-12-10|15.5|9:00
+stb501|friday night lights|amazon prime|2014-12-10|8.10|9:00
+stb502|harry potter|amazon prime|2014-12-10|12.1|2:20
+stb503|spider man|netflex|2014-06-20|20|9:00
+stb504|harry potter|netflex|2014-12-10|12|2:20
+stb505|harry potter|tv|2014-06-20|9.0|2:20
+stb506|the hobbit|netflex|2014-12-10|9.0|9:00
+stb507|princess bride|warner bros|2014-06-20|12|2:20
+stb508|spider man|amazon prime|2014-12-10|15.5|1:00
+stb509|friday night lights|netflex|2014-12-10|15.5|1:00
+stb510|the night before christmas|warner bros|2014-04-10|12.1|1:00
+stb511|lord of the rings|netflex|2014-06-20|12.1|2:20
+stb512|lord of the rings|warner bros|2014-12-10|9.0|9:00
+stb513|shrek|hulu|2014-04-10|15.5|2:20
+stb514|princess bride|warner bros|2014-06-20|12.1|2:20
+stb515|the night before christmas|hulu|2014-06-20|15.5|1:00
+stb516|the hobbit|netflex|2014-12-10|12.1|2:20
+stb517|harry potter|hulu|2014-06-20|15.5|9:00
+stb518|spider man|tv|2014-06-20|12.1|9:00
+stb519|the hobbit|amazon prime|2014-12-10|12.1|1:00
+stb520|spider man|netflex|2014-06-20|12.1|9:00
+stb521|the night before christmas|netflex|2014-04-10|15.5|9:00
+stb522|shrek|netflex|2014-06-20|12.1|2:20
+stb523|friday night lights|netflex|2014-12-10|20|1:00
+stb524|princess bride|warner bros|2014-06-20|20|2:20
+stb525|lord of the rings|tv|2014-06-20|120|1:00
+stb526|holes|hulu|2014-12-10|12.1|9:00
+stb527|princess bride|netflex|2014-12-10|20|9:00
+stb528|princess bride|warner bros|2014-04-10|12|2:20
+stb529|princess bride|netflex|2014-04-10|6.0|9:00
+stb530|the hobbit|netflex|2014-04-10|12.1|2:20
+stb531|the night before christmas|netflex|2014-12-10|12|2:20
+stb532|holes|amazon prime|2014-06-20|12|2:20
+stb533|spider man|netflex|2014-12-10|12|1:00
+stb534|friday night lights|warner bros|2014-06-20|15.5|1:00
+stb535|the night before christmas|netflex|2014-04-10|12|9:00
+stb536|spider man|warner bros|2014-04-10|15.5|9:00
+stb537|shrek|netflex|2014-04-10|15.5|9:00
+stb538|harry potter|amazon prime|2014-12-10|6.0|9:00
+stb539|the hobbit|warner bros|2014-04-10|12|9:00
+stb540|harry potter|amazon prime|2014-06-20|12.1|2:20
+stb541|shrek|warner bros|2014-12-10|8.10|1:00
+stb542|lord of the rings|netflex|2014-04-10|15.5|9:00
+stb543|the night before christmas|hulu|2014-12-10|15.5|1:00
+stb544|princess bride|tv|2014-04-10|20|1:00
+stb545|lord of the rings|netflex|2014-06-20|9.0|2:20
+stb546|the night before christmas|netflex|2014-12-10|8.10|9:00
+stb547|spider man|netflex|2014-06-20|6.0|1:00
+stb548|princess bride|hulu|2014-12-10|12.1|9:00
+stb549|spider man|hulu|2014-06-20|12|1:00
+stb550|spider man|amazon prime|2014-04-10|120|2:20
+stb551|the night before christmas|hulu|2014-12-10|15.5|2:20
+stb552|princess bride|hulu|2014-12-10|12|2:20
+stb553|friday night lights|hulu|2014-06-20|20|1:00
+stb554|friday night lights|hulu|2014-12-10|120|1:00
+stb555|holes|hulu|2014-04-10|9.0|1:00
+stb556|harry potter|netflex|2014-06-20|120|1:00
+stb557|the night before christmas|amazon prime|2014-06-20|9.0|2:20
+stb558|spider man|warner bros|2014-04-10|20|2:20
+stb559|spider man|tv|2014-12-10|120|9:00
+stb560|the hobbit|netflex|2014-04-10|12.1|2:20
+stb561|the night before christmas|amazon prime|2014-06-20|12.1|1:00
+stb562|friday night lights|netflex|2014-12-10|9.0|2:20
+stb563|princess bride|hulu|2014-04-10|15.5|9:00
+stb564|holes|hulu|2014-06-20|8.10|9:00
+stb565|the hobbit|amazon prime|2014-12-10|20|2:20
+stb566|the hobbit|warner bros|2014-12-10|15.5|2:20
+stb567|lord of the rings|warner bros|2014-04-10|15.5|9:00
+stb568|the hobbit|netflex|2014-04-10|12|2:20
+stb569|the night before christmas|amazon prime|2014-04-10|9.0|2:20
+stb570|princess bride|netflex|2014-04-10|8.10|1:00
+stb571|holes|netflex|2014-12-10|9.0|1:00
+stb572|lord of the rings|amazon prime|2014-04-10|12|9:00
+stb573|princess bride|warner bros|2014-12-10|15.5|9:00
+stb574|spider man|hulu|2014-12-10|9.0|1:00
+stb575|spider man|tv|2014-04-10|20|9:00
+stb576|princess bride|warner bros|2014-06-20|9.0|2:20
+stb577|the night before christmas|tv|2014-06-20|6.0|2:20
+stb578|spider man|hulu|2014-12-10|20|9:00
+stb579|princess bride|tv|2014-06-20|12.1|9:00
+stb580|princess bride|netflex|2014-04-10|15.5|2:20
+stb581|lord of the rings|warner bros|2014-06-20|9.0|2:20
+stb582|spider man|warner bros|2014-04-10|9.0|1:00
+stb583|lord of the rings|warner bros|2014-12-10|6.0|1:00
+stb584|the hobbit|tv|2014-04-10|9.0|9:00
+stb585|lord of the rings|tv|2014-12-10|9.0|9:00
+stb586|holes|netflex|2014-12-10|12|2:20
+stb587|shrek|netflex|2014-04-10|12.1|9:00
+stb588|lord of the rings|warner bros|2014-12-10|6.0|9:00
+stb589|lord of the rings|hulu|2014-12-10|8.10|2:20
+stb590|spider man|warner bros|2014-12-10|20|9:00
+stb591|friday night lights|tv|2014-06-20|9.0|2:20
+stb592|harry potter|tv|2014-06-20|20|9:00
+stb593|the night before christmas|warner bros|2014-12-10|120|2:20
+stb594|the hobbit|hulu|2014-06-20|20|1:00
+stb595|lord of the rings|netflex|2014-12-10|120|2:20
+stb596|harry potter|warner bros|2014-04-10|12.1|1:00
+stb597|holes|warner bros|2014-12-10|8.10|9:00
+stb598|spider man|tv|2014-04-10|20|2:20
+stb599|spider man|amazon prime|2014-12-10|12|1:00
+stb600|holes|tv|2014-06-20|120|2:20
+stb601|friday night lights|tv|2014-04-10|9.0|9:00
+stb602|the night before christmas|hulu|2014-06-20|12|9:00
+stb603|princess bride|amazon prime|2014-06-20|12|2:20
+stb604|lord of the rings|hulu|2014-04-10|12.1|2:20
+stb605|friday night lights|tv|2014-12-10|12|2:20
+stb606|princess bride|netflex|2014-12-10|15.5|9:00
+stb607|the hobbit|warner bros|2014-04-10|6.0|9:00
+stb608|lord of the rings|tv|2014-06-20|12|1:00
+stb609|shrek|warner bros|2014-04-10|12.1|2:20
+stb610|the hobbit|amazon prime|2014-12-10|15.5|2:20
+stb611|the hobbit|amazon prime|2014-12-10|12.1|2:20
+stb612|friday night lights|hulu|2014-04-10|120|1:00
+stb613|holes|hulu|2014-04-10|8.10|2:20
+stb614|lord of the rings|netflex|2014-06-20|12.1|1:00
+stb615|shrek|amazon prime|2014-12-10|9.0|2:20
+stb616|spider man|netflex|2014-04-10|9.0|1:00
+stb617|shrek|warner bros|2014-06-20|15.5|9:00
+stb618|the night before christmas|tv|2014-04-10|15.5|1:00
+stb619|holes|warner bros|2014-12-10|20|1:00
+stb620|shrek|warner bros|2014-12-10|6.0|1:00
+stb621|the night before christmas|netflex|2014-06-20|6.0|2:20
+stb622|the hobbit|hulu|2014-12-10|8.10|2:20
+stb623|lord of the rings|tv|2014-12-10|15.5|1:00
+stb624|harry potter|netflex|2014-12-10|6.0|9:00
+stb625|the hobbit|netflex|2014-06-20|12|2:20
+stb626|princess bride|tv|2014-06-20|20|9:00
+stb627|princess bride|netflex|2014-04-10|15.5|2:20
+stb628|the hobbit|netflex|2014-04-10|20|1:00
+stb629|shrek|warner bros|2014-06-20|9.0|9:00
+stb630|harry potter|amazon prime|2014-06-20|12|2:20
+stb631|holes|amazon prime|2014-04-10|6.0|9:00
+stb632|princess bride|hulu|2014-12-10|12.1|2:20
+stb633|spider man|tv|2014-04-10|20|1:00
+stb634|lord of the rings|netflex|2014-12-10|20|9:00
+stb635|harry potter|netflex|2014-12-10|15.5|1:00
+stb636|princess bride|amazon prime|2014-12-10|8.10|9:00
+stb637|harry potter|netflex|2014-04-10|12|1:00
+stb638|spider man|warner bros|2014-04-10|120|9:00
+stb639|spider man|netflex|2014-12-10|6.0|2:20
+stb640|spider man|netflex|2014-12-10|12.1|9:00
+stb641|lord of the rings|netflex|2014-12-10|6.0|1:00
+stb642|harry potter|amazon prime|2014-04-10|120|9:00
+stb643|shrek|warner bros|2014-06-20|15.5|9:00
+stb644|friday night lights|amazon prime|2014-06-20|120|9:00
+stb645|lord of the rings|amazon prime|2014-04-10|6.0|9:00
+stb646|shrek|warner bros|2014-04-10|6.0|2:20
+stb647|holes|amazon prime|2014-06-20|120|9:00
+stb648|princess bride|hulu|2014-04-10|8.10|1:00
+stb649|lord of the rings|amazon prime|2014-06-20|12|9:00
+stb650|shrek|netflex|2014-04-10|12|2:20
+stb651|friday night lights|netflex|2014-06-20|12.1|2:20
+stb652|friday night lights|warner bros|2014-12-10|12|2:20
+stb653|lord of the rings|netflex|2014-06-20|15.5|9:00
+stb654|shrek|netflex|2014-04-10|20|9:00
+stb655|friday night lights|hulu|2014-06-20|120|2:20
+stb656|the night before christmas|tv|2014-12-10|120|2:20
+stb657|lord of the rings|netflex|2014-12-10|15.5|1:00
+stb658|the hobbit|netflex|2014-12-10|12|9:00
+stb659|princess bride|netflex|2014-04-10|12.1|9:00
+stb660|shrek|tv|2014-06-20|20|2:20
+stb661|spider man|netflex|2014-04-10|12.1|1:00
+stb662|shrek|warner bros|2014-04-10|9.0|1:00
+stb663|spider man|amazon prime|2014-12-10|8.10|1:00
+stb664|harry potter|amazon prime|2014-04-10|8.10|9:00
+stb665|lord of the rings|warner bros|2014-12-10|6.0|9:00
+stb666|the night before christmas|tv|2014-06-20|6.0|9:00
+stb667|shrek|netflex|2014-12-10|9.0|1:00
+stb668|lord of the rings|tv|2014-12-10|12.1|2:20
+stb669|friday night lights|warner bros|2014-04-10|120|2:20
+stb670|holes|hulu|2014-12-10|15.5|2:20
+stb671|friday night lights|warner bros|2014-06-20|12|2:20
+stb672|shrek|netflex|2014-04-10|12.1|2:20
+stb673|lord of the rings|netflex|2014-04-10|9.0|1:00
+stb674|spider man|netflex|2014-04-10|120|2:20
+stb675|friday night lights|amazon prime|2014-06-20|12|9:00
+stb676|lord of the rings|hulu|2014-06-20|20|1:00
+stb677|lord of the rings|warner bros|2014-12-10|120|2:20
+stb678|shrek|netflex|2014-04-10|12|2:20
+stb679|the night before christmas|tv|2014-04-10|6.0|9:00
+stb680|the night before christmas|netflex|2014-04-10|8.10|2:20
+stb681|shrek|amazon prime|2014-04-10|20|1:00
+stb682|holes|netflex|2014-04-10|20|9:00
+stb683|spider man|tv|2014-04-10|6.0|9:00
+stb684|the night before christmas|hulu|2014-12-10|15.5|2:20
+stb685|holes|warner bros|2014-12-10|15.5|1:00
+stb686|the hobbit|hulu|2014-04-10|9.0|9:00
+stb687|shrek|amazon prime|2014-12-10|15.5|9:00
+stb688|shrek|netflex|2014-04-10|8.10|1:00
+stb689|shrek|amazon prime|2014-12-10|120|1:00
+stb690|holes|netflex|2014-06-20|9.0|2:20
+stb691|friday night lights|netflex|2014-04-10|9.0|2:20
+stb692|spider man|amazon prime|2014-06-20|8.10|1:00
+stb693|the night before christmas|netflex|2014-06-20|15.5|1:00
+stb694|holes|tv|2014-06-20|12|2:20
+stb695|friday night lights|tv|2014-12-10|120|2:20
+stb696|spider man|netflex|2014-12-10|15.5|1:00
+stb697|princess bride|warner bros|2014-12-10|15.5|1:00
+stb698|spider man|amazon prime|2014-06-20|15.5|2:20
+stb699|friday night lights|tv|2014-06-20|9.0|9:00
+stb700|princess bride|tv|2014-06-20|6.0|9:00
+stb701|shrek|amazon prime|2014-06-20|20|9:00
+stb702|princess bride|netflex|2014-12-10|12|2:20
+stb703|spider man|warner bros|2014-04-10|20|2:20
+stb704|holes|netflex|2014-06-20|12.1|9:00
+stb705|holes|netflex|2014-04-10|8.10|1:00
+stb706|princess bride|warner bros|2014-04-10|12.1|9:00
+stb707|lord of the rings|amazon prime|2014-12-10|8.10|1:00
+stb708|friday night lights|netflex|2014-12-10|12|1:00
+stb709|holes|hulu|2014-06-20|12|1:00
+stb710|princess bride|netflex|2014-06-20|8.10|9:00
+stb711|friday night lights|netflex|2014-04-10|6.0|9:00
+stb712|shrek|tv|2014-04-10|20|1:00
+stb713|lord of the rings|netflex|2014-12-10|6.0|1:00
+stb714|friday night lights|netflex|2014-12-10|9.0|9:00
+stb715|spider man|warner bros|2014-06-20|12|2:20
+stb716|princess bride|hulu|2014-04-10|8.10|1:00
+stb717|princess bride|tv|2014-04-10|8.10|2:20
+stb718|spider man|tv|2014-04-10|9.0|1:00
+stb719|lord of the rings|amazon prime|2014-04-10|9.0|9:00
+stb720|the hobbit|tv|2014-04-10|8.10|2:20
+stb721|the night before christmas|netflex|2014-06-20|120|9:00
+stb722|princess bride|netflex|2014-12-10|15.5|2:20
+stb723|harry potter|amazon prime|2014-06-20|120|2:20
+stb724|the hobbit|tv|2014-04-10|120|9:00
+stb725|holes|tv|2014-04-10|12|1:00
+stb726|holes|hulu|2014-12-10|12|2:20
+stb727|harry potter|netflex|2014-12-10|12.1|1:00
+stb728|harry potter|warner bros|2014-12-10|9.0|1:00
+stb729|lord of the rings|netflex|2014-06-20|12|2:20
+stb730|lord of the rings|netflex|2014-12-10|20|1:00
+stb731|friday night lights|netflex|2014-06-20|9.0|2:20
+stb732|shrek|hulu|2014-06-20|15.5|9:00
+stb733|lord of the rings|amazon prime|2014-12-10|6.0|9:00
+stb734|the hobbit|netflex|2014-12-10|6.0|2:20
+stb735|spider man|hulu|2014-04-10|20|2:20
+stb736|princess bride|netflex|2014-04-10|6.0|1:00
+stb737|the night before christmas|amazon prime|2014-04-10|120|9:00
+stb738|friday night lights|netflex|2014-06-20|12.1|1:00
+stb739|spider man|netflex|2014-04-10|20|2:20
+stb740|lord of the rings|netflex|2014-04-10|8.10|2:20
+stb741|holes|netflex|2014-04-10|9.0|2:20
+stb742|the night before christmas|hulu|2014-04-10|12|9:00
+stb743|holes|warner bros|2014-12-10|12|2:20
+stb744|the hobbit|amazon prime|2014-04-10|20|2:20
+stb745|the night before christmas|tv|2014-12-10|8.10|1:00
+stb746|the hobbit|warner bros|2014-06-20|6.0|1:00
+stb747|princess bride|tv|2014-12-10|120|1:00
+stb748|friday night lights|netflex|2014-04-10|12|1:00
+stb749|the hobbit|netflex|2014-12-10|120|2:20
+stb750|the hobbit|netflex|2014-12-10|9.0|1:00
+stb751|lord of the rings|netflex|2014-04-10|12|9:00
+stb752|the hobbit|netflex|2014-12-10|6.0|2:20
+stb753|shrek|netflex|2014-06-20|12|1:00
+stb754|princess bride|netflex|2014-04-10|120|2:20
+stb755|holes|hulu|2014-04-10|12.1|2:20
+stb756|friday night lights|tv|2014-12-10|6.0|9:00
+stb757|the night before christmas|netflex|2014-04-10|12|1:00
+stb758|friday night lights|amazon prime|2014-06-20|6.0|1:00
+stb759|shrek|hulu|2014-06-20|12|2:20
+stb760|harry potter|netflex|2014-12-10|120|2:20
+stb761|the night before christmas|hulu|2014-06-20|8.10|1:00
+stb762|the hobbit|amazon prime|2014-04-10|20|2:20
+stb763|princess bride|netflex|2014-06-20|9.0|9:00
+stb764|princess bride|amazon prime|2014-06-20|8.10|1:00
+stb765|spider man|netflex|2014-06-20|12.1|2:20
+stb766|the night before christmas|netflex|2014-04-10|8.10|1:00
+stb767|shrek|netflex|2014-04-10|120|2:20
+stb768|the hobbit|hulu|2014-12-10|6.0|2:20
+stb769|lord of the rings|tv|2014-12-10|8.10|9:00
+stb770|the hobbit|tv|2014-06-20|12.1|1:00
+stb771|lord of the rings|hulu|2014-04-10|12|9:00
+stb772|holes|warner bros|2014-06-20|12|2:20
+stb773|the hobbit|warner bros|2014-04-10|12|2:20
+stb774|lord of the rings|amazon prime|2014-06-20|6.0|9:00
+stb775|the night before christmas|netflex|2014-06-20|15.5|2:20
+stb776|the night before christmas|netflex|2014-12-10|15.5|2:20
+stb777|the night before christmas|warner bros|2014-04-10|120|9:00
+stb778|shrek|warner bros|2014-04-10|6.0|9:00
+stb779|the night before christmas|netflex|2014-12-10|15.5|9:00
+stb780|friday night lights|netflex|2014-04-10|120|2:20
+stb781|shrek|netflex|2014-06-20|8.10|1:00
+stb782|the night before christmas|netflex|2014-06-20|15.5|9:00
+stb783|the hobbit|netflex|2014-12-10|9.0|1:00
+stb784|friday night lights|netflex|2014-06-20|12.1|1:00
+stb785|friday night lights|warner bros|2014-04-10|8.10|2:20
+stb786|shrek|tv|2014-06-20|9.0|2:20
+stb787|harry potter|netflex|2014-06-20|9.0|2:20
+stb788|the night before christmas|amazon prime|2014-04-10|9.0|9:00
+stb789|the hobbit|tv|2014-12-10|9.0|9:00
+stb790|harry potter|tv|2014-12-10|15.5|2:20
+stb791|lord of the rings|netflex|2014-06-20|12|2:20
+stb792|shrek|netflex|2014-04-10|9.0|2:20
+stb793|holes|warner bros|2014-12-10|20|2:20
+stb794|the night before christmas|amazon prime|2014-12-10|8.10|9:00
+stb795|the hobbit|netflex|2014-12-10|120|2:20
+stb796|harry potter|amazon prime|2014-06-20|8.10|1:00
+stb797|princess bride|netflex|2014-06-20|12|1:00
+stb798|the night before christmas|warner bros|2014-06-20|8.10|2:20
+stb799|princess bride|amazon prime|2014-04-10|20|1:00
+stb800|lord of the rings|netflex|2014-12-10|12.1|2:20
+stb801|the night before christmas|netflex|2014-06-20|20|9:00
+stb802|princess bride|netflex|2014-06-20|6.0|2:20
+stb803|lord of the rings|hulu|2014-06-20|12|2:20
+stb804|spider man|amazon prime|2014-06-20|8.10|1:00
+stb805|harry potter|netflex|2014-12-10|12|1:00
+stb806|the hobbit|amazon prime|2014-04-10|20|9:00
+stb807|harry potter|warner bros|2014-04-10|15.5|2:20
+stb808|the hobbit|netflex|2014-12-10|12|2:20
+stb809|holes|netflex|2014-04-10|12|1:00
+stb810|lord of the rings|hulu|2014-04-10|8.10|9:00
+stb811|harry potter|tv|2014-04-10|15.5|1:00
+stb812|princess bride|tv|2014-06-20|20|2:20
+stb813|shrek|amazon prime|2014-04-10|15.5|2:20
+stb814|shrek|netflex|2014-04-10|20|1:00
+stb815|friday night lights|netflex|2014-12-10|12|9:00
+stb816|spider man|netflex|2014-06-20|9.0|1:00
+stb817|shrek|tv|2014-06-20|12.1|9:00
+stb818|lord of the rings|netflex|2014-06-20|12.1|9:00
+stb819|shrek|netflex|2014-04-10|15.5|9:00
+stb820|lord of the rings|netflex|2014-06-20|12|1:00
+stb821|friday night lights|hulu|2014-04-10|12|2:20
+stb822|lord of the rings|hulu|2014-06-20|12|2:20
+stb823|the night before christmas|netflex|2014-04-10|12|2:20
+stb824|harry potter|warner bros|2014-12-10|12|9:00
+stb825|friday night lights|netflex|2014-12-10|9.0|1:00
+stb826|harry potter|netflex|2014-12-10|9.0|2:20
+stb827|the night before christmas|tv|2014-04-10|15.5|9:00
+stb828|holes|hulu|2014-06-20|12|2:20
+stb829|princess bride|tv|2014-12-10|6.0|1:00
+stb830|shrek|netflex|2014-06-20|20|2:20
+stb831|the night before christmas|tv|2014-06-20|12.1|1:00
+stb832|holes|netflex|2014-12-10|12.1|9:00
+stb833|holes|tv|2014-04-10|9.0|2:20
+stb834|the hobbit|netflex|2014-06-20|12|9:00
+stb835|harry potter|netflex|2014-06-20|120|2:20
+stb836|the night before christmas|warner bros|2014-12-10|20|9:00
+stb837|spider man|netflex|2014-06-20|12.1|1:00
+stb838|shrek|tv|2014-06-20|12|9:00
+stb839|the hobbit|amazon prime|2014-12-10|12.1|9:00
+stb840|spider man|tv|2014-04-10|8.10|1:00
+stb841|harry potter|netflex|2014-06-20|6.0|2:20
+stb842|harry potter|hulu|2014-12-10|12.1|9:00
+stb843|friday night lights|tv|2014-12-10|12|2:20
+stb844|spider man|netflex|2014-12-10|120|9:00
+stb845|holes|warner bros|2014-12-10|120|9:00
+stb846|harry potter|netflex|2014-06-20|12|1:00
+stb847|lord of the rings|netflex|2014-06-20|6.0|9:00
+stb848|friday night lights|netflex|2014-06-20|9.0|9:00
+stb849|the hobbit|hulu|2014-06-20|12|9:00
+stb850|the hobbit|netflex|2014-12-10|6.0|1:00
+stb851|holes|netflex|2014-12-10|12|9:00
+stb852|the night before christmas|hulu|2014-06-20|12.1|2:20
+stb853|shrek|netflex|2014-04-10|120|2:20
+stb854|spider man|warner bros|2014-12-10|120|1:00
+stb855|princess bride|tv|2014-04-10|120|1:00
+stb856|the hobbit|netflex|2014-12-10|12|9:00
+stb857|lord of the rings|netflex|2014-06-20|8.10|1:00
+stb858|spider man|hulu|2014-12-10|12.1|2:20
+stb859|the night before christmas|netflex|2014-12-10|12.1|1:00
+stb860|princess bride|warner bros|2014-04-10|6.0|1:00
+stb861|spider man|tv|2014-06-20|20|9:00
+stb862|friday night lights|netflex|2014-04-10|120|9:00
+stb863|spider man|amazon prime|2014-04-10|15.5|2:20
+stb864|friday night lights|warner bros|2014-12-10|20|2:20
+stb865|the hobbit|hulu|2014-12-10|9.0|9:00
+stb866|spider man|amazon prime|2014-04-10|9.0|9:00
+stb867|friday night lights|amazon prime|2014-12-10|6.0|1:00
+stb868|spider man|hulu|2014-04-10|15.5|1:00
+stb869|lord of the rings|netflex|2014-06-20|120|2:20
+stb870|holes|hulu|2014-06-20|12.1|9:00
+stb871|spider man|warner bros|2014-12-10|9.0|2:20
+stb872|the night before christmas|hulu|2014-12-10|6.0|9:00
+stb873|the night before christmas|hulu|2014-12-10|20|1:00
+stb874|lord of the rings|warner bros|2014-06-20|15.5|1:00
+stb875|friday night lights|netflex|2014-12-10|20|1:00
+stb876|holes|tv|2014-04-10|120|9:00
+stb877|lord of the rings|tv|2014-12-10|8.10|1:00
+stb878|holes|hulu|2014-04-10|12|9:00
+stb879|the hobbit|warner bros|2014-04-10|12.1|9:00
+stb880|harry potter|warner bros|2014-06-20|8.10|1:00
+stb881|the hobbit|netflex|2014-06-20|6.0|2:20
+stb882|princess bride|amazon prime|2014-12-10|120|2:20
+stb883|the night before christmas|amazon prime|2014-04-10|15.5|1:00
+stb884|lord of the rings|amazon prime|2014-12-10|12|1:00
+stb885|princess bride|hulu|2014-06-20|120|1:00
+stb886|princess bride|hulu|2014-06-20|6.0|9:00
+stb887|shrek|hulu|2014-12-10|6.0|9:00
+stb888|the night before christmas|hulu|2014-12-10|12|9:00
+stb889|the night before christmas|tv|2014-06-20|15.5|1:00
+stb890|friday night lights|tv|2014-12-10|8.10|1:00
+stb891|friday night lights|hulu|2014-12-10|8.10|1:00
+stb892|holes|hulu|2014-06-20|20|2:20
+stb893|harry potter|tv|2014-04-10|8.10|1:00
+stb894|spider man|amazon prime|2014-06-20|120|1:00
+stb895|lord of the rings|netflex|2014-06-20|12|9:00
+stb896|lord of the rings|warner bros|2014-04-10|15.5|1:00
+stb897|spider man|amazon prime|2014-12-10|15.5|9:00
+stb898|princess bride|warner bros|2014-04-10|8.10|2:20
+stb899|friday night lights|tv|2014-04-10|12|9:00
+stb900|princess bride|netflex|2014-12-10|8.10|2:20
+stb901|shrek|netflex|2014-04-10|8.10|9:00
+stb902|holes|netflex|2014-06-20|8.10|1:00
+stb903|the hobbit|amazon prime|2014-12-10|6.0|2:20
+stb904|holes|tv|2014-12-10|120|1:00
+stb905|princess bride|tv|2014-06-20|15.5|9:00
+stb906|harry potter|tv|2014-04-10|12.1|1:00
+stb907|harry potter|netflex|2014-06-20|12.1|9:00
+stb908|the night before christmas|warner bros|2014-12-10|8.10|9:00
+stb909|lord of the rings|netflex|2014-06-20|12.1|2:20
+stb910|harry potter|hulu|2014-12-10|8.10|9:00
+stb911|shrek|tv|2014-04-10|12.1|9:00
+stb912|spider man|netflex|2014-06-20|8.10|2:20
+stb913|the hobbit|netflex|2014-06-20|120|9:00
+stb914|friday night lights|hulu|2014-04-10|120|9:00
+stb915|the hobbit|amazon prime|2014-04-10|120|9:00
+stb916|friday night lights|amazon prime|2014-06-20|20|1:00
+stb917|the night before christmas|tv|2014-06-20|12|9:00
+stb918|lord of the rings|amazon prime|2014-12-10|9.0|9:00
+stb919|lord of the rings|tv|2014-12-10|20|9:00
+stb920|princess bride|warner bros|2014-04-10|9.0|9:00
+stb921|shrek|netflex|2014-06-20|8.10|1:00
+stb922|the night before christmas|amazon prime|2014-12-10|12.1|2:20
+stb923|holes|netflex|2014-12-10|20|2:20
+stb924|holes|tv|2014-12-10|12.1|9:00
+stb925|harry potter|amazon prime|2014-12-10|12|9:00
+stb926|lord of the rings|netflex|2014-06-20|12.1|1:00
+stb927|harry potter|netflex|2014-06-20|6.0|9:00
+stb928|lord of the rings|amazon prime|2014-04-10|120|2:20
+stb929|friday night lights|amazon prime|2014-06-20|12|9:00
+stb930|holes|warner bros|2014-06-20|120|2:20
+stb931|friday night lights|amazon prime|2014-04-10|20|2:20
+stb932|lord of the rings|netflex|2014-12-10|15.5|2:20
+stb933|the hobbit|hulu|2014-04-10|9.0|2:20
+stb934|friday night lights|netflex|2014-12-10|15.5|2:20
+stb935|shrek|netflex|2014-04-10|8.10|9:00
+stb936|spider man|netflex|2014-06-20|8.10|1:00
+stb937|the hobbit|amazon prime|2014-06-20|6.0|2:20
+stb938|holes|netflex|2014-12-10|12|2:20
+stb939|friday night lights|hulu|2014-12-10|8.10|1:00
+stb940|the hobbit|netflex|2014-04-10|15.5|9:00
+stb941|holes|tv|2014-04-10|12.1|9:00
+stb942|the night before christmas|amazon prime|2014-12-10|9.0|2:20
+stb943|friday night lights|hulu|2014-04-10|12.1|2:20
+stb944|lord of the rings|amazon prime|2014-12-10|8.10|2:20
+stb945|lord of the rings|warner bros|2014-06-20|120|9:00
+stb946|friday night lights|hulu|2014-12-10|20|1:00
+stb947|the night before christmas|warner bros|2014-06-20|15.5|2:20
+stb948|princess bride|netflex|2014-06-20|120|9:00
+stb949|the night before christmas|amazon prime|2014-04-10|12.1|9:00
+stb950|holes|warner bros|2014-06-20|12|1:00
+stb951|the night before christmas|tv|2014-04-10|12.1|9:00
+stb952|princess bride|tv|2014-12-10|15.5|1:00
+stb953|spider man|netflex|2014-06-20|12.1|1:00
+stb954|spider man|netflex|2014-04-10|9.0|1:00
+stb955|the hobbit|amazon prime|2014-04-10|6.0|9:00
+stb956|friday night lights|hulu|2014-12-10|6.0|1:00
+stb957|shrek|warner bros|2014-12-10|6.0|1:00
+stb958|the hobbit|amazon prime|2014-12-10|8.10|2:20
+stb959|princess bride|warner bros|2014-06-20|12|1:00
+stb960|the night before christmas|amazon prime|2014-06-20|9.0|2:20
+stb961|harry potter|amazon prime|2014-06-20|8.10|9:00
+stb962|the hobbit|warner bros|2014-04-10|12.1|2:20
+stb963|harry potter|netflex|2014-04-10|12|1:00
+stb964|shrek|tv|2014-04-10|12|9:00
+stb965|the hobbit|netflex|2014-06-20|8.10|9:00
+stb966|the hobbit|tv|2014-12-10|12|9:00
+stb967|princess bride|hulu|2014-04-10|8.10|9:00
+stb968|princess bride|warner bros|2014-12-10|8.10|1:00
+stb969|lord of the rings|tv|2014-06-20|15.5|9:00
+stb970|spider man|hulu|2014-06-20|12.1|2:20
+stb971|harry potter|netflex|2014-12-10|12.1|1:00
+stb972|the hobbit|hulu|2014-06-20|9.0|1:00
+stb973|shrek|netflex|2014-04-10|20|9:00
+stb974|shrek|warner bros|2014-12-10|8.10|1:00
+stb975|lord of the rings|netflex|2014-04-10|12|1:00
+stb976|holes|netflex|2014-12-10|20|9:00
+stb977|lord of the rings|netflex|2014-06-20|9.0|2:20
+stb978|harry potter|amazon prime|2014-04-10|6.0|1:00
+stb979|princess bride|netflex|2014-04-10|9.0|9:00
+stb980|harry potter|warner bros|2014-04-10|15.5|1:00
+stb981|holes|netflex|2014-04-10|15.5|1:00
+stb982|lord of the rings|netflex|2014-04-10|6.0|2:20
+stb983|holes|netflex|2014-06-20|6.0|1:00
+stb984|harry potter|warner bros|2014-06-20|6.0|2:20
+stb985|the hobbit|tv|2014-12-10|20|9:00
+stb986|spider man|tv|2014-04-10|20|9:00
+stb987|harry potter|netflex|2014-12-10|8.10|2:20
+stb988|friday night lights|netflex|2014-12-10|6.0|1:00
+stb989|the night before christmas|netflex|2014-04-10|9.0|2:20
+stb990|spider man|hulu|2014-04-10|8.10|2:20
+stb991|princess bride|hulu|2014-12-10|12.1|1:00
+stb992|the hobbit|netflex|2014-12-10|9.0|9:00
+stb993|shrek|tv|2014-06-20|8.10|2:20
+stb994|friday night lights|tv|2014-06-20|20|1:00
+stb995|the night before christmas|hulu|2014-06-20|6.0|1:00
+stb996|the hobbit|amazon prime|2014-04-10|8.10|9:00
+stb997|holes|netflex|2014-12-10|6.0|9:00
+stb998|lord of the rings|hulu|2014-04-10|9.0|9:00
+stb999|spider man|amazon prime|2014-04-10|20|2:20

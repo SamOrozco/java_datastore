@@ -34,7 +34,14 @@ public class Query {
 
     public static List<Row> run(String[] args, boolean explainQuery) {
         Query query = new Query(args);
-        return query.execute(explainQuery);
+        long start = System.currentTimeMillis();
+        List<Row> rows = query.execute(explainQuery);
+        System.out.println();
+        String val = String.format("fetched %d records in %d ms", rows.size(),
+                                   System.currentTimeMillis() - start);
+        System.out.println(val);
+        System.out.println();
+        return rows;
     }
 
     public List<Row> execute(boolean explain) {
@@ -83,8 +90,6 @@ public class Query {
             // we have all the keys we want to query before we read anything from disk
             finalRows = store.readRowsFromKeys(selector, unqKeys);
         }
-
-        System.out.println(String.format("row count %d", finalRows.size()));
         order.order(finalRows);
         return finalRows;
     }
