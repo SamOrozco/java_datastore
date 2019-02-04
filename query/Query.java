@@ -7,7 +7,7 @@ import query.filter.Filter;
 import java.util.*;
 
 public class Query {
-    private static Map<String, String> flagMap = new HashMap<>();
+    private Map<String, String> flagMap;
     private static final String selectString = "-s";
     private static final String orderString = "-o";
     private static final String filterString = "-f";
@@ -28,10 +28,19 @@ public class Query {
 
     public static List<Row> run(String[] args) {
         Query query = new Query(args);
-        return query.execute();
+        return query.execute(false);
     }
 
-    public List<Row> execute() {
+
+    public static List<Row> run(String[] args, boolean explainQuery) {
+        Query query = new Query(args);
+        return query.execute(explainQuery);
+    }
+
+    public List<Row> execute(boolean explain) {
+        // refresh flagMap
+        this.flagMap = new HashMap<>();
+
         if (args.length % 2 != 0) { // if args aren't even it is a bad combo
             throw new RuntimeException("invalid argument combination");
         }
@@ -40,14 +49,14 @@ public class Query {
             // if we find a flag we like put it and its value in the map
             switch (current) {
                 case selectString:
-                    flagMap.put(current, args[i + 1]);
+                    flagMap.put(current, args[++i]);
                     break;
                 case orderString:
-                    flagMap.put(current, args[i + 1]);
+                    flagMap.put(current, args[++i]);
                     break;
                 case filterString:
                     hasFilter = true;
-                    flagMap.put(current, args[i + 1]);
+                    flagMap.put(current, args[++i]);
                     break;
             }
         }
@@ -69,6 +78,7 @@ public class Query {
             // if we get here a filter was passed
             // build a filter map
             Filter filter = new Filter(flagMap.get(filterString), store, selector);
+            filter.explain = explain;
             Collection<String> unqKeys = filter.eval();
             // we have all the keys we want to query before we read anything from disk
             finalRows = store.readRowsFromKeys(selector, unqKeys);

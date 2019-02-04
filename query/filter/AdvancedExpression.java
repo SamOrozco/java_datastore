@@ -1,7 +1,6 @@
 package query.filter;
 
-import query.Row;
-
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -43,8 +42,20 @@ public class AdvancedExpression implements Expression {
 
     @Override
     public Set<String> eval() {
-        Collection<String> leftList = left.eval();
-        Collection<String> rightList = right.eval();
+        Collection<String> leftList = null;
+        Collection<String> rightList = null;
+        if (left != null) {
+            leftList = left.eval();
+        } else {
+            leftList = new ArrayList<>();
+        }
+
+        if (right != null) {
+            rightList = right.eval();
+        } else {
+            rightList = new ArrayList<>();
+        }
+
         if (operator == Operator.AND) {
             // retain only keeps items that are in both lists
             leftList.retainAll(rightList);
@@ -52,5 +63,22 @@ public class AdvancedExpression implements Expression {
             leftList.addAll(rightList);
         }
         return new HashSet<>(leftList);
+    }
+
+    @Override
+    public void print() {
+        if (left != null) {
+            left.print();
+        }
+        if (operator != null) {
+            if (operator == Operator.AND) {
+                System.out.print(" and ");
+            } else {
+                System.out.print(" or ");
+            }
+        }
+        if (right != null) {
+            right.print();
+        }
     }
 }

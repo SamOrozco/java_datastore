@@ -42,6 +42,15 @@ public class SingleExpression implements Expression {
         return store.getRowsFromColAndValue(col, value);
     }
 
+    @Override
+    public void print() {
+        printKeyVal(col, value);
+    }
+
+    public static void printKeyVal(String key, String val) {
+        System.out.print(String.format("%s=%s", key.toLowerCase(), val));
+    }
+
     public RowStore getStore() {
         return store;
     }

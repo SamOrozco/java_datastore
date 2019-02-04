@@ -21,6 +21,7 @@ public class Filter implements Expression {
     private final RowStore store;
     private final Select select;
     private Expression root;
+    public boolean explain = false;
     //    STB="stb1" AND TITLE="the hobbit" OR TITLE="unbreakable"
 
     public Filter(String filter, RowStore store, Select select) {
@@ -109,7 +110,7 @@ public class Filter implements Expression {
         List<String> vals = new ArrayList<>();
         for (int i = index; i < args.length; i++) {
             String val = args[i];
-            if (val.equals(closeParen)) {
+            if (val.equals(closeParen) || val.isEmpty()) {
                 return vals.toArray(new String[0]);
             }
             vals.add(args[i]);
@@ -217,9 +218,20 @@ public class Filter implements Expression {
 
     @Override
     public Collection<String> eval() {
+        if (explain) {
+            System.out.println("EXPLAIN:");
+            this.print();
+        }
         if (this.root == null) {
             return store.getRowKeys();
         }
         return root.eval();
+    }
+
+    @Override
+    public void print() {
+        if (this.root != null) {
+            this.root.print();
+        }
     }
 }

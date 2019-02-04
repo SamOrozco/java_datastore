@@ -46,5 +46,22 @@ public class QueryParserTest {
             System.out.println("first query test count not correct");
             System.exit(1);
         }
+
+        // advanced query test
+        String[] queryArgs3 = new String[]{"-f", "STB=stb1 or (TITLE=the hobbit"};
+        try { // we expect this to throw an exception
+            List<Row> rows3 = Query.run(queryArgs3);
+            System.out.println("failed expected exception");
+            System.exit(1);
+        } catch (Exception e) {
+        }
+
+        String[] queryArgs4 =
+            new String[]{"-f", "STB=stb1 or (TITLE=shrek and REV=12.1)"};
+        List<Row> rows4 = Query.run(queryArgs4, true);
+        if (rows4.size() != 230) {
+            System.out.println("first query test count not correct");
+            System.exit(1);
+        }
     }
 }
