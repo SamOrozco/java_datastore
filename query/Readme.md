@@ -20,13 +20,12 @@ Flag: `-o order flag e.g. STB,TITLE` order by STB, TITLE
 
 Flag: `-f filter flag e.g. DATE=2014-04-10` select only rows where Date=2014-04-10
 
+**Advanced Filters**
+
+
+Flag: `-f filter flag e.g. DATE=2014-04-10 and (TITLE=shrek or Title=spiderman)` select only rows where Date=2014-04-10
+
 
 The query tool provides a O(1) lookup for rowKey and an O(1) lookup for all rows with a given value for a column.
-
-The query tool also supports advanced filtering:
- 
-`TITLE=stb1 or TITLE=stb2`
-
-`TITLE=stb1 or (TITLE=stb2 and REV=12.1)`
 
 
